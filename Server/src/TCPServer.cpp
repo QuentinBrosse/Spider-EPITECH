@@ -84,7 +84,6 @@ void TCPServer::waitForClientsActivity()
 
 	for (int m_i = 0; m_i < m_maxClients; m_i++)
 	{
-		std::cout << m_i << ") " << m_clientSockets[m_i] << std::endl;
 		m_SeedDescription = m_clientSockets[m_i];
 		if (m_SeedDescription > 0)
 			FD_SET(m_SeedDescription, &m_readFds);
@@ -117,7 +116,6 @@ TCPClient* TCPServer::getIncomingCLient()
 		if (m_clientSockets[m_i] == 0)
 		{
 			m_clientSockets[m_i] = m_newSocket;
-			std::cout << "Socket ajoute a la liste avec l'indexe " << m_i << std::endl;
 			break;
 		}
 	}

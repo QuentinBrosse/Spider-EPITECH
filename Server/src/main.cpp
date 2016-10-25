@@ -3,12 +3,13 @@
 
 #include "TCPServer.h"
 #include "TCPClient.h"
+#include "Protocol.hpp"
 
 int main(int argc, char **argv)
 {
 	TCPServer server;
 	std::vector<TCPClient*> clientsList;
-	char buffer[1024];
+	char buffer[sizeof(t_proto)];
 
 	server.listenClients("127.0.0.1", "4242", 3);
 	while (server.isListening())
@@ -24,15 +25,27 @@ int main(int argc, char **argv)
 			if (server.checkSocket(*clientIt))
 			{
 				int read = 0;
-				if ((read = ((*clientIt)->receiveData(buffer, 1024))) == 0)
+				if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_proto)))) == 0)
 				{
 					std::cout << "Client disconected" << std::endl;
 					server.disconectClient(*clientIt);
 				}
 				else
 				{
-					buffer[read] = '\0';
-					std::cout << buffer << std::endl;
+				  if (read == sizeof(t_proto))
+				    {
+				      t_proto *data = reinterpret_cast<t_proto *>(buffer);
+				      if (data->source == eventSource::KEYBOARD)
+					{
+					  std::cout << "Client key ";
+					  if (m_keycode2name.find(data->button_code) != m_keycode2name.end())
+					    std::cout << m_keycode2name.at(data->button_code);
+					  else
+					    std::cout << "unknown";
+					  std::cout << (data->key_status == m_keycodeStatus::DOWN ? " pressed" : " released");
+					  std::cout << " on client" << std::endl;
+					}
+				    }
 				}
 			}
 		}
