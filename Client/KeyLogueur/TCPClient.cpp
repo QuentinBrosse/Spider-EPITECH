@@ -1,7 +1,7 @@
 #include "TCPClient.h"
 
 TCPClient::TCPClient(bool doNotSetup) :
-	m_socketFd(0)
+	m_socketFd(0), m_isConnected(false)
 {
 	if (doNotSetup == false)
 	{
@@ -48,7 +48,15 @@ void TCPClient::connectToHost(const std::string&ip, const std::string &port)
 		#elif defined(_WIN32) || defined(_WIN64) 
 				closesocket(m_socketFd);
 		#endif
+				m_isConnected = false;
 	}
+	else
+		m_isConnected = true;
+}
+
+bool TCPClient::isConnected() const
+{
+	return m_isConnected;
 }
 
 void TCPClient::setSocket(int socket)
@@ -60,7 +68,8 @@ void TCPClient::sendData(const void *data, unsigned int len)
 {
 	if (send(m_socketFd, reinterpret_cast<const char *>(data), len, 0) != len)
 	{
-		std::cout << "Cannot send" << std::endl;
+		std::cout << "Send error" << std::endl;
+		m_isConnected = false;
 	}
 }
 
@@ -70,7 +79,7 @@ int TCPClient::receiveData(void *buffer, unsigned int len)
 
 	if ((valReaded = recv(m_socketFd, reinterpret_cast<char *>(buffer), len, 0)) == 0)
 	{
-		std::cout << "Receive error, client / host disconnected ?" << std::endl;
+		m_isConnected = false;
 	}
 
 	return valReaded;

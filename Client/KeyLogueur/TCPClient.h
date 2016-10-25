@@ -28,6 +28,7 @@ public:
 	void setSocket(int);
 	void sendData(const void *, unsigned int);
 	int receiveData(void *, unsigned int);
+	bool isConnected() const;
 	void disconnectFromHost();
 	TCPClient& operator<<(const std::string &);
 	TCPClient& operator>>(std::string &);
@@ -39,6 +40,7 @@ private:
 		WSADATA	m_WSAData;
 	#endif
 	int m_socketFd;
+	bool m_isConnected;
 	struct sockaddr_in m_hostInfo;
 };
 

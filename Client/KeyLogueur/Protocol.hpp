@@ -36,9 +36,9 @@ static std::map<unsigned char, std::string> m_keycode2name = {
 
 static std::map<unsigned char, std::string> m_mousecode2name = {
 	{ 0x0202, "Left button up" },
-	{ 0x0201, "Left button up" },
+	{ 0x0201, "Left button down" },
 	{ 0x0205, "Right button up" },
-	{ 0x0204, "Right button up" },
+	{ 0x0204, "Right button down" },
 };
 
 enum eventSource {UNKNOWN = 0, KEYBOARD, MOUSE};

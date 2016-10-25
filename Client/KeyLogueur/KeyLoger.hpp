@@ -39,7 +39,6 @@ public:
 		if (wParam == WM_KEYDOWN)
 		{
 			std::cout << key << " is pressed" << std::endl;
-
 			data.source = eventSource::KEYBOARD;
 			data.button_code = kbdStruct.vkCode;
 			data.key_status = m_keycodeStatus::DOWN;
@@ -49,22 +48,22 @@ public:
 		}
 		else if (wParam == WM_KEYUP)
 		{
+			std::cout << key << " is released" << std::endl;
 			data.source = eventSource::KEYBOARD;
 			data.button_code = kbdStruct.vkCode;
 			data.key_status = m_keycodeStatus::UP;
 			data.x_pos = 0;
 			data.y_pos = 0;
 			m_client->sendData(&data, sizeof(data));
-			std::cout << key << " is released" << std::endl;
 		}
 		else {
+			std::cout << key << " has an unknown status" << std::endl;
 			data.source = eventSource::KEYBOARD;
 			data.button_code = kbdStruct.vkCode;
 			data.key_status = m_keycodeStatus::UNDEFINED;
 			data.x_pos = 0;
 			data.y_pos = 0;
 			m_client->sendData(&data, sizeof(data));
-			std::cout << key << " has an unknown status" << std::endl;
 		}
 	};
 
@@ -79,16 +78,22 @@ public:
 		else {
 			mouse_button = "unknown button";
 		}
-
+		std::cout << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
 		data.source = eventSource::MOUSE;
 		data.button_code = wParam;
 		data.key_status = m_keycodeStatus::UNDEFINED;
 		data.x_pos = pt.x;
 		data.y_pos = pt.y;
 		m_client->sendData(&data, sizeof(data));
-
-		std::cout << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
 	};
+
+	void checkServer()
+	{
+		if (!m_client->isConnected()) {
+			std::cout << "Trying to reconnect..." << std::endl;
+			m_client->connectToHost("127.0.0.1", "4242");
+		}
+	}
 
 	BOOL refreshNonBlocking() {
 		PeekMessage(&m_msg, 0, NULL, 0, 0);
