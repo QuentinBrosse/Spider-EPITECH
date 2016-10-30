@@ -33,8 +33,8 @@ public:
 	TCPClient& operator<<(const std::string &);
 	TCPClient& operator>>(std::string &);
 	int getSocketDescriptor();
-	void unblock();
-	void block();
+	void unblockSocket();
+	void blockSocket();
 
 private:
 	#ifdef __unix__
