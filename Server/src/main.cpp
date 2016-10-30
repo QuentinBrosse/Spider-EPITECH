@@ -2,7 +2,7 @@
 #include <string>
 
 #include "TCPServer.h"
-#include "TCPClient.h"
+#include "TCPClient.hpp"
 #include "Protocol.hpp"
 
 int main(int argc, char **argv)

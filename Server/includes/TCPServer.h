@@ -20,7 +20,7 @@
 #define OS_Windows
 #endif
 
-#include "TCPClient.h"
+#include "TCPClient.hpp"
 
 class TCPServer
 {
