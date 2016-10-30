@@ -24,6 +24,8 @@ class TCPClient
 public:
 	TCPClient(bool = false);
 	~TCPClient();
+	void unblockSocket();
+	void blockSocket();
 	void connectToHost(const std::string&, const std::string &);
 	void setSocket(int);
 	void sendData(const void *, unsigned int);
@@ -33,8 +35,6 @@ public:
 	TCPClient& operator<<(const std::string &);
 	TCPClient& operator>>(std::string &);
 	int getSocketDescriptor();
-	void unblockSocket();
-	void blockSocket();
 
 private:
 	#ifdef __unix__
