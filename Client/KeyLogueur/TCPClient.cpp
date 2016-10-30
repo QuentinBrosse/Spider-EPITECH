@@ -88,13 +88,22 @@ int TCPClient::receiveData(void *buffer, unsigned int len)
 void TCPClient::unblockSocket()
 {
 	u_long iMode = 1;
-	ioctlsocket(m_socketFd, FIONBIO, &iMode);
+
+	#ifdef __unix__
+		ioctl(m_socketFd, FIONBIO, &iMode);
+	#elif defined(_WIN32) || defined(_WIN64) 
+		ioctlsocket(m_socketFd, FIONBIO, &iMode);
+	#endif
 }
 
 void TCPClient::blockSocket()
 {
 	u_long iMode = 0;
-	ioctlsocket(m_socketFd, FIONBIO, &iMode);
+	#ifdef __unix__
+		ioctl(m_socketFd, FIONBIO, &iMode);
+	#elif defined(_WIN32) || defined(_WIN64) 
+		ioctlsocket(m_socketFd, FIONBIO, &iMode);
+	#endif
 }
 
 void TCPClient::disconnectFromHost()
