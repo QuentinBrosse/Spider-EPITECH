@@ -13,9 +13,9 @@
 #include <netinet/in.h>
 #include <sys/time.h>
 #elif defined(_WIN32) || defined(WIN32) 
+#pragma comment(lib, "ws2_32.lib")
 #include <winsock2.h>
 #include <Ws2tcpip.h>
-#pragma comment(lib, "ws2_32.lib")
 #define OS_Windows
 #endif
 
@@ -28,10 +28,13 @@ public:
 	void setSocket(int);
 	void sendData(const void *, unsigned int);
 	int receiveData(void *, unsigned int);
+	bool isConnected() const;
 	void disconnectFromHost();
 	TCPClient& operator<<(const std::string &);
 	TCPClient& operator>>(std::string &);
 	int getSocketDescriptor();
+	void unblock();
+	void block();
 
 private:
 	#ifdef __unix__
@@ -39,6 +42,7 @@ private:
 		WSADATA	m_WSAData;
 	#endif
 	int m_socketFd;
+	bool m_isConnected;
 	struct sockaddr_in m_hostInfo;
 };
 

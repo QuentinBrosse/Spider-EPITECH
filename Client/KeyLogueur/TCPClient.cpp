@@ -85,6 +85,18 @@ int TCPClient::receiveData(void *buffer, unsigned int len)
 	return valReaded;
 }
 
+void TCPClient::unblock()
+{
+	u_long iMode = 1;
+	ioctlsocket(m_socketFd, FIONBIO, &iMode);
+}
+
+void TCPClient::block()
+{
+	u_long iMode = 0;
+	ioctlsocket(m_socketFd, FIONBIO, &iMode);
+}
+
 void TCPClient::disconnectFromHost()
 {
 	#ifdef __unix__
