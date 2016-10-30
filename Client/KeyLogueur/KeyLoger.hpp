@@ -7,7 +7,7 @@
 #include <iostream>
 #include <windowsx.h>
 #include "Protocol.hpp"
-#include "TCPClient.h"
+#include "TCPClient.hpp"
 
 ///////////////////////////////////////////////////////////////////////////////////
 //                       Callback WinAPI declaraction                            //

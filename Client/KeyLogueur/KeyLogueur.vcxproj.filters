@@ -29,10 +29,10 @@
     <ClInclude Include="KeyLoger.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="TCPClient.h">
+    <ClInclude Include="Protocol.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Protocol.hpp">
+    <ClInclude Include="TCPClient.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

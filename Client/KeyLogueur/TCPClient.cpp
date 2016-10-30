@@ -1,4 +1,4 @@
-#include "TCPClient.h"
+#include "TCPClient.hpp"
 
 TCPClient::TCPClient(bool doNotSetup) :
 	m_socketFd(0), m_isConnected(false)
@@ -90,7 +90,9 @@ void TCPClient::unblockSocket()
 	u_long iMode = 1;
 
 	#ifdef __unix__
-		ioctl(m_socketFd, FIONBIO, &iMode);
+		int flags = fcntl(m_socketFd, F_GETFL, 0);
+		flags = (flags&~O_NONBLOCK);
+		fcntl(m_socketFd, F_SETFL, flags);
 	#elif defined(_WIN32) || defined(_WIN64) 
 		ioctlsocket(m_socketFd, FIONBIO, &iMode);
 	#endif
@@ -100,7 +102,9 @@ void TCPClient::blockSocket()
 {
 	u_long iMode = 0;
 	#ifdef __unix__
-		ioctl(m_socketFd, FIONBIO, &iMode);
+		int flags = fcntl(m_socketFd, F_GETFL, 0);
+		flags = (flags&~O_NONBLOCK);
+		fcntl(m_socketFd, F_SETFL, flags);
 	#elif defined(_WIN32) || defined(_WIN64) 
 		ioctlsocket(m_socketFd, FIONBIO, &iMode);
 	#endif
