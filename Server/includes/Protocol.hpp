@@ -47,8 +47,9 @@ enum commandType { BAD = 0, CLOSE, DOWNLOAD_LOG, DISPLAY_LOG, PURGE_LOG };
 
 typedef struct      s_cmd
 {
-	commandType		cmd;
-	char			buffer[buffer_size];
+  commandType		cmd;
+  char			buffer[buffer_size];
+  unsigned char		data_len;
 }					t_cmd;
 
 #endif /* !_PROTOCOL_HPP_ */
