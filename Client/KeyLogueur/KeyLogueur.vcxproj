@@ -112,10 +112,12 @@
   <ItemGroup>
     <ClCompile Include="KeyLoger.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parser.cpp" />
     <ClCompile Include="TCPClient.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeyLoger.hpp" />
+    <ClInclude Include="Parser.hpp" />
     <ClInclude Include="Protocol.hpp" />
     <ClInclude Include="TCPClient.hpp" />
   </ItemGroup>

