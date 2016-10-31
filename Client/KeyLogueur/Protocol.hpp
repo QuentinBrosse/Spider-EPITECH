@@ -44,6 +44,7 @@ static std::map<unsigned char, std::string> m_mousecode2name = {
 enum eventSource {UNKNOWN = 0, KEYBOARD, MOUSE};
 enum m_keycodeStatus { UNDEFINED = 0, UP, DOWN };
 
+/*
 typedef struct		s_proto
 {
 	eventSource		source; //See enum eventSource
@@ -52,5 +53,14 @@ typedef struct		s_proto
 	int				x_pos; //For mouse x position only, will be ignored otherwise
 	int				y_pos; //For mouse y position only, will be ignored otherwise
 }					t_proto;
+*/
+
+enum commandType { BAD = 0, CLOSE, DOWNLOAD_LOG, DISPLAY_LOG };
+
+typedef struct      s_cmd
+{
+	commandType		cmd;
+	char			buffer[255];
+}					t_cmd;
 
 #endif /* !_PROTOCOL_HPP_ */

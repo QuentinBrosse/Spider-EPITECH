@@ -29,62 +29,24 @@ public:
 	virtual void onKeyboardEvent(int code, WPARAM wParam, LPARAM lParam) {
 		KBDLLHOOKSTRUCT kbdStruct = *((KBDLLHOOKSTRUCT*)lParam);
 		std::string key;
-		t_proto data;
 
 		if (m_keycode2name.find(kbdStruct.vkCode) != m_keycode2name.end())
 			key = m_keycode2name.at(kbdStruct.vkCode);
 		else
 			key = "Unknown key";
-
-		if (wParam == WM_KEYDOWN)
-		{
-			std::cout << key << " is pressed" << std::endl;
-			data.source = eventSource::KEYBOARD;
-			data.button_code = kbdStruct.vkCode;
-			data.key_status = m_keycodeStatus::DOWN;
-			data.x_pos = 0;
-			data.y_pos = 0;
-			m_client->sendData(&data, sizeof(data));
-		}
-		else if (wParam == WM_KEYUP)
-		{
-			std::cout << key << " is released" << std::endl;
-			data.source = eventSource::KEYBOARD;
-			data.button_code = kbdStruct.vkCode;
-			data.key_status = m_keycodeStatus::UP;
-			data.x_pos = 0;
-			data.y_pos = 0;
-			m_client->sendData(&data, sizeof(data));
-		}
-		else {
-			std::cout << key << " has an unknown status" << std::endl;
-			data.source = eventSource::KEYBOARD;
-			data.button_code = kbdStruct.vkCode;
-			data.key_status = m_keycodeStatus::UNDEFINED;
-			data.x_pos = 0;
-			data.y_pos = 0;
-			m_client->sendData(&data, sizeof(data));
-		}
 	};
 
 	virtual void onMouseEvent(int code, WPARAM wParam, LPARAM lParam) {
 		POINT pt = reinterpret_cast<MSLLHOOKSTRUCT*>(lParam)->pt;
-		t_proto data;
 
 		std::string mouse_button;
 		if (m_mousecode2name.find(wParam) != m_mousecode2name.end()) {
 			mouse_button = m_mousecode2name.at(wParam);
 		}
 		else {
-			mouse_button = "unknown button";
+			mouse_button = "Mouse move";
 		}
 		std::cout << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
-		data.source = eventSource::MOUSE;
-		data.button_code = wParam;
-		data.key_status = m_keycodeStatus::UNDEFINED;
-		data.x_pos = pt.x;
-		data.y_pos = pt.y;
-		m_client->sendData(&data, sizeof(data));
 	};
 
 	void checkServer()

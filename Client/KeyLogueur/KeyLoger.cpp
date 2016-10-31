@@ -18,7 +18,7 @@ LRESULT CALLBACK MouseProc(int code, WPARAM wParam, LPARAM lParam) {
 	if (code < 0)
 		return CallNextHookEx(NULL, code, wParam, lParam);
 
-	if (code == HC_ACTION && m_mousecode2name.find(wParam) != m_mousecode2name.end())
+	if (code == HC_ACTION /*&& m_mousecode2name.find(wParam) != m_mousecode2name.end()*/)
 	{
 		return MouseHookFunction(code, wParam, lParam);
 	}

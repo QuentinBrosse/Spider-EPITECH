@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 	TCPClient client;
 	unsigned long timestamp;
 	unsigned long chrono;
-	char test[10];
+	char test[255];
 
 	client.connectToHost("127.0.0.1", "4242");
 	client.unblockSocket();
@@ -22,8 +22,14 @@ int main(int argc, char **argv)
 		int read = client.receiveData(&test, 10);
 		if (read != -1)
 		{
-			test[read] = '\0';
-			std::cout << "Received: " << test << std::endl;
+			if (read == sizeof(t_cmd))
+			{
+				t_cmd *command = reinterpret_cast<t_cmd *>(test);
+				if (command->cmd == commandType::CLOSE)
+				{
+					return (0);
+				}
+			}
 		}
 		chrono = std::time(nullptr);
 		if (chrono - timestamp >= serverCheckDelay) {
