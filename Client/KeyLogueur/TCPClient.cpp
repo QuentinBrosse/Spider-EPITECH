@@ -62,6 +62,7 @@ bool TCPClient::isConnected() const
 void TCPClient::setSocket(int socket)
 {
 	m_socketFd = socket;
+	m_isConnected = true;
 }
 
 void TCPClient::sendData(const void *data, unsigned int len)

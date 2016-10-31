@@ -46,7 +46,7 @@ public:
 		else {
 			mouse_button = "Mouse move";
 		}
-		std::cout << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
+		//std::cout << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
 	};
 
 	void checkServer()

