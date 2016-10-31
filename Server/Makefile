@@ -2,7 +2,8 @@ CC		=	g++
 
 SRC		=	src/main.cpp \
 			src/TCPClient.cpp \
-			src/TCPServer.cpp
+			src/TCPServer.cpp \
+			src/parser.cpp
 
 OBJ		=	$(SRC:.cpp=.o)
 
