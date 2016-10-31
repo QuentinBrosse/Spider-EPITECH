@@ -90,7 +90,10 @@ void TCPServer::waitForClientsActivity()
 		if (m_SeedDescription > m_maxSocket)
 			m_maxSocket = m_SeedDescription;
 	}
-	m_activity = select(m_maxSocket + 1, &m_readFds, NULL, NULL, NULL);
+	struct timeval tv;
+	tv.tv_usec = 50;
+	tv.tv_sec = 0;
+	m_activity = select(m_maxSocket + 1, &m_readFds, NULL, NULL, &tv);
 	if ((m_activity < 0) && (errno != EINTR))
 	{
 		std::cout << "select error" << std::endl;
@@ -146,3 +149,14 @@ bool TCPServer::checkSocket(TCPClient *client)
 {
 	return FD_ISSET(client->getSocketDescriptor(), &m_readFds);
 }
+
+const std::vector<int> TCPServer::getClientsSocketList()
+{
+	std::vector<int> list;
+	for (int m_i = 0; m_i < m_maxClients; m_i++)
+	  {
+		  list.push_back(m_clientSockets[m_i]);
+	  }
+  return (list);
+}
+ 

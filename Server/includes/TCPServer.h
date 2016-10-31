@@ -35,6 +35,7 @@ public:
 	TCPClient* getIncomingCLient();
 	void disconectClient(TCPClient *client);
 	bool checkSocket(TCPClient *client);
+	const std::vector<int> getClientsSocketList();
 
 private:
 	#ifdef __unix__
