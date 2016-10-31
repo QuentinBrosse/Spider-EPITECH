@@ -41,26 +41,14 @@ static std::map<unsigned char, std::string> m_mousecode2name = {
 	{ 0x0204, "Right button down" },
 };
 
-enum eventSource {UNKNOWN = 0, KEYBOARD, MOUSE};
-enum m_keycodeStatus { UNDEFINED = 0, UP, DOWN };
+const unsigned int buffer_size = 255;
 
-/*
-typedef struct		s_proto
-{
-	eventSource		source; //See enum eventSource
-	m_keycodeStatus key_status; //For keyboard only, will be ignored otherwise
-	unsigned char	button_code; //vkCode for Keyboard and wParam for mouse
-	int				x_pos; //For mouse x position only, will be ignored otherwise
-	int				y_pos; //For mouse y position only, will be ignored otherwise
-}					t_proto;
-*/
-
-enum commandType { BAD = 0, CLOSE, DOWNLOAD_LOG, DISPLAY_LOG };
+enum commandType { BAD = 0, CLOSE, DOWNLOAD_LOG, DISPLAY_LOG, PURGE_LOG };
 
 typedef struct      s_cmd
 {
 	commandType		cmd;
-	char			buffer[255];
+	char			buffer[buffer_size];
 }					t_cmd;
 
 #endif /* !_PROTOCOL_HPP_ */
