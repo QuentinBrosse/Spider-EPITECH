@@ -5,6 +5,7 @@
 
 #include "parser.hpp"
 #include "TCPServer.hpp"
+#include "Protocol.hpp"
 #include "TCPClient.hpp"
 
 Parser::Parser(TCPServer &server, std::vector<TCPClient *> &clients) :
@@ -57,9 +58,12 @@ void Parser::parseCommands()
 	  int sock = list[std::stoi(client_id)];
 	  for (auto clientIt = m_clientList.begin(); clientIt != m_clientList.end(); clientIt++)
 	    {
-	      if (sock == (*clientIt)->getSocketDescriptor())
+	      if (sock == (*clientIt)->getSocketDescriptor() && (*clientIt)->isConnected())
 		{
-		  std::cout << "Client found" << std::endl;
+		  t_cmd command;
+		  command.cmd = commandType::CLOSE;
+		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
+		  break;
 		}
 	    }
 	}

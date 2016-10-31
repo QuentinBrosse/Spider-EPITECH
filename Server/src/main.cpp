@@ -41,6 +41,7 @@ int main(int argc, char **argv)
 		{
 		  std::cout << "Client disconected" << std::endl;
 		  server.disconectClient(*clientIt);
+		  (*clientIt)->disconnectFromHost();
 		}
 	      else
 		{
