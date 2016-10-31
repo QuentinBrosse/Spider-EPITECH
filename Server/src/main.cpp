@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <algorithm>
 #include <functional>
 #include <map>
@@ -52,10 +53,17 @@ int main(int argc, char **argv)
 		  if (read == sizeof(t_cmd))
 		    {
 		      t_cmd *command = reinterpret_cast<t_cmd *>(buffer);
-		      if (command.cmd == commandType::DOWNLOAD_LOG)
+		      if (command->cmd == commandType::DOWNLOAD_LOG)
 			{
-			  command.buffer[command.data_len] = '\0';
-			  std::cout << command.buffer << std::endl;
+			  char data[buffer_size + 1];
+			  std::memcpy(data, command->buffer, buffer_size);
+			  data[command->data_len] = '\0';
+			  std::cout << data << std::endl;
+			}
+		      if (command->cmd == commandType::DOWNLOAD_LOG_END)
+			{
+			  std::cout << std::endl;
+			  std::cout << "LOG DOWNLOAD COMPLETE" << std::endl;
 			}
 		    }
 		}
