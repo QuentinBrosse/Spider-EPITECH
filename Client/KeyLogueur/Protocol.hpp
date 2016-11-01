@@ -43,7 +43,7 @@ static std::map<unsigned char, std::string> m_mousecode2name = {
 
 const unsigned int buffer_size = 255;
 
-enum commandType { BAD = 0, CLOSE, DOWNLOAD_LOG, DOWNLOAD_LOG_END, DISPLAY_LOG, PURGE_LOG };
+enum commandType { BAD = 0, CLOSE, DOWNLOAD_LOG, DOWNLOAD_LOG_END, DISPLAY_LOG, DISPLAY_LOG_END, PURGE_LOG };
 
 typedef struct      s_cmd
 {

