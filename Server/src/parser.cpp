@@ -19,6 +19,11 @@ Parser::~Parser()
 
 }
 
+std::ofstream &Parser::getOutputStream()
+{
+  return m_output;
+}
+
 void Parser::parseCommands()
 {
   int size = read(0,&m_cmdBuffer,254);
@@ -88,7 +93,43 @@ void Parser::parseCommands()
 		}
 	    }
 	}
+
       if (std::strncmp(cmd.c_str(), "DOWNLOAD_LOG", 12) == 0)
+	{
+	  std::istringstream stream(cmd);
+	  std::string cmd;
+	  std::string name;
+	  std::string client_id;
+	  stream >> cmd >> client_id;
+
+	  std::cout << "Parsed: " << cmd << " " << client_id << std::endl;
+	  auto list = m_server.getClientsSocketList();
+	  int sock = list[std::stoi(client_id)];
+
+	  std::cout << "Entrez le nom sous lequel le log sera enregistrer:" << std::endl;
+	  std::cin >> name;
+
+	  if (name.size() == 0)
+	    {
+	      std::cout << "Aucun nom n'a ete communiquer, le log sera enregistrer sous le nom default.txt" << std::endl;
+	      name = "default.txt";
+	    }
+
+	  m_output.open(name);
+
+	  for (auto clientIt = m_clientList.begin(); clientIt != m_clientList.end(); clientIt++)
+	    {
+	      if (sock == (*clientIt)->getSocketDescriptor() && (*clientIt)->isConnected())
+		{
+		  t_cmd command;
+		  command.cmd = commandType::DOWNLOAD_LOG;
+		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
+		  break;
+		}
+	    }
+	}
+
+      if (std::strncmp(cmd.c_str(), "DISPLAY_LOG", 11) == 0)
 	{
 	  std::istringstream stream(cmd);
 	  std::string cmd;
@@ -103,7 +144,7 @@ void Parser::parseCommands()
 	      if (sock == (*clientIt)->getSocketDescriptor() && (*clientIt)->isConnected())
 		{
 		  t_cmd command;
-		  command.cmd = commandType::DOWNLOAD_LOG;
+		  command.cmd = commandType::DISPLAY_LOG;
 		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
 		  break;
 		}
