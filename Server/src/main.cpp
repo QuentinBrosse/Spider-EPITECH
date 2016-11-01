@@ -18,7 +18,7 @@ int main(int argc, char **argv)
   char cmd_buffer[255];
   Parser parser(server, clientsList);
 
-  fcntl(0, F_SETFL, fcntl(0, F_GETFL) | O_NONBLOCK);
+  parser.unblockRead();
   server.listenClients("127.0.0.1", "4242", 3);
   std::cout << "Available commands:" << std::endl;
   std::cout << "LIST : List connected clients ID." << std::endl;

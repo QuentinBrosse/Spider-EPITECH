@@ -19,6 +19,16 @@ Parser::~Parser()
 
 }
 
+void Parser::blockRead()
+{
+  fcntl(0, F_SETFL, fcntl(0, F_GETFL) & ~O_NONBLOCK);
+}
+
+void Parser::unblockRead()
+{
+  fcntl(0, F_SETFL, fcntl(0, F_GETFL) | O_NONBLOCK);
+}
+
 std::ofstream &Parser::getOutputStream()
 {
   return m_output;
@@ -105,10 +115,10 @@ void Parser::parseCommands()
 	  std::cout << "Parsed: " << cmd << " " << client_id << std::endl;
 	  auto list = m_server.getClientsSocketList();
 	  int sock = list[std::stoi(client_id)];
-
+	  this->blockRead();
 	  std::cout << "Entrez le nom sous lequel le log sera enregistrer:" << std::endl;
 	  std::cin >> name;
-
+	  this->unblockRead();
 	  if (name.size() == 0)
 	    {
 	      std::cout << "Aucun nom n'a ete communiquer, le log sera enregistrer sous le nom default.txt" << std::endl;

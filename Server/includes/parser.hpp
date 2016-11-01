@@ -14,6 +14,8 @@ Parser(TCPServer &, std::vector<TCPClient *> &);
   ~Parser();
   void parseCommands();
   std::ofstream &getOutputStream();
+  void blockRead();
+  void unblockRead();
 private:
 char m_cmdBuffer[255];
 TCPServer &m_server;
