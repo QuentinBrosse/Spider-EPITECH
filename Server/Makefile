@@ -1,7 +1,7 @@
 CC		=	g++
 
 SRC		=	src/main.cpp \
-			src/TCPClient.cpp \
+			../Common/TCPClient.cpp \
 			src/TCPServer.cpp \
 			src/parser.cpp
 
