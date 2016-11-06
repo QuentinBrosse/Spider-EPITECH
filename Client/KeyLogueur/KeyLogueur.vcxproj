@@ -117,10 +117,10 @@
     <ClCompile Include="Parser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Common\Protocol.hpp" />
     <ClInclude Include="..\..\Common\TCPClient.hpp" />
     <ClInclude Include="KeyLoger.hpp" />
     <ClInclude Include="Parser.hpp" />
-    <ClInclude Include="Protocol.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
