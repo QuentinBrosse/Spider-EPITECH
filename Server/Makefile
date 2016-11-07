@@ -10,7 +10,7 @@ OBJ		=	$(SRC:.cpp=.o)
 
 NAME		=	server
 
-CXXFLAGS	=	-I ./includes -I ../Common -L ../lib/linux -lssl -lcrypto -std=c++11
+CXXFLAGS	=	-I ./includes -I ../Common -lssl -lcrypto -std=c++11
 
 all: $(NAME)
 
