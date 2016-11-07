@@ -63,7 +63,7 @@ typedef struct      s_cmd
 	unsigned char	data_len;
 }					t_cmd;
 
-const char *g_key = "01234567890123456789012345678901";
-const char *g_IV = "01234567890123456";
+const static char *ssl_key = "01234567890123456789012345678901";
+const static char *ssl_iv = "01234567890123456";
 
 #endif /* !_PROTOCOL_HPP_ */

@@ -7,8 +7,8 @@ SSLNetwork::SSLNetwork(bool useExistingSocket) :
 	OpenSSL_add_all_algorithms();
 	OPENSSL_config(NULL);
 
-	this->key = g_key;
-	this->IV = g_IV;
+	this->key = ssl_key;
+	this->IV = ssl_iv;
 }
 
 SSLNetwork::~SSLNetwork()
