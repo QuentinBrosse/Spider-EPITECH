@@ -85,12 +85,13 @@ void SSLNetwork::sendData(const void *data, unsigned int len)
 int SSLNetwork::receiveData(void *data, unsigned int len)
 {
 	int valReaded = 0;
-	auto result = this->decrypt(reinterpret_cast<const unsigned char *>(data), len);
 
-	if ((valReaded = recv(m_socketFd, reinterpret_cast<char *>(result.first), result.second, 0)) == 0)
+	if ((valReaded = recv(m_socketFd, reinterpret_cast<char *>(data), len, 0)) == 0)
 	{
 		m_isConnected = false;
 	}
 
+	auto result = this->decrypt(reinterpret_cast<const unsigned char *>(data), len);
+	std::memcpy(data, result.first, result.second);
 	return valReaded;
 }
