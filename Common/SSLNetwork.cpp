@@ -40,7 +40,7 @@ void	SSLNetwork::setIV(const std::string &_IV)
 std::pair<unsigned char *, int>	SSLNetwork::encrypt(const unsigned char *data, unsigned int data_len)
 {
 	EVP_CIPHER_CTX *ctx;
-	unsigned char *ciphertext = new unsigned char[data_len];
+	unsigned char *ciphertext = new unsigned char[data_len*2];
 
 	int len = 0;
 	int ciphertext_len = 0;
@@ -51,7 +51,6 @@ std::pair<unsigned char *, int>	SSLNetwork::encrypt(const unsigned char *data, u
 	EVP_EncryptFinal_ex(ctx, ciphertext + len, &len);
 	ciphertext_len += len;
 	EVP_CIPHER_CTX_free(ctx);
-	std::cout << "Data len: " << ciphertext_len << std::endl;
 	return std::make_pair(ciphertext, ciphertext_len);
 }
 
