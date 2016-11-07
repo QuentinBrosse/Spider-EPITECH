@@ -1,15 +1,15 @@
-#include "SSL.cpp"
+#include "SSL.hpp"
 
 SSL::SSL()
 {
-  ifstream      filepub("../Key/public.pem", ios::in);
-  ifstream      filepriv("../Key/private.pem", ios::in);
+  std::ifstream      filepub("../Key/public.pem", std::ios::in);
+  std::ifstream      filepriv("../Key/private.pem", std::ios::in);
   char		caractere;
 
   if(filepub)
     {
       while (filepub.get(caractere))
-	this->pubkey = caractere;
+	this->pubKey = caractere;
       filepub.close();
     }
   else
@@ -17,7 +17,7 @@ SSL::SSL()
   if(filepriv)
     {
       while (filepriv.get(caractere))
-	this->privkey = caractere;
+	this->privKey = caractere;
       filepriv.close();
     }
   else
