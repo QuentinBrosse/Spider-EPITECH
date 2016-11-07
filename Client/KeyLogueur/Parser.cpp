@@ -83,5 +83,7 @@ void Parser::parseCommands()
 				KeyLogger::getInstance().startRecording();
 			}
 		}
+		else
+			std::cout << "Invalid packet size: " << read << " bytes" << std::endl;
 	}
 }

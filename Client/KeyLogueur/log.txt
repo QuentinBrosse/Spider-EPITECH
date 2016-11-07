@@ -3131,3 +3131,3025 @@ Mouse move at: 1129 84
 Mouse Left button down at: 1129 84
 Mouse move at: 1129 85
 Mouse Left button up at: 1129 85
+Mouse move at: 705 1001
+Mouse move at: 705 1001
+Mouse move at: 706 1001
+Mouse move at: 708 999
+Mouse move at: 715 993
+Mouse move at: 725 985
+Mouse move at: 735 976
+Mouse move at: 748 965
+Mouse move at: 760 956
+Mouse move at: 771 948
+Mouse move at: 780 942
+Mouse move at: 788 938
+Mouse move at: 793 936
+Mouse move at: 796 935
+Mouse move at: 799 934
+Mouse move at: 800 933
+Mouse move at: 800 933
+Mouse move at: 801 933
+Mouse move at: 800 928
+Mouse move at: 791 908
+Mouse move at: 768 843
+Mouse move at: 748 766
+Mouse move at: 732 679
+Mouse move at: 719 599
+Mouse move at: 709 517
+Mouse move at: 701 448
+Mouse move at: 697 383
+Mouse move at: 692 331
+Mouse move at: 690 293
+Mouse move at: 688 268
+Mouse move at: 687 253
+Mouse move at: 686 242
+Mouse move at: 685 235
+Mouse move at: 685 232
+Mouse move at: 685 229
+Mouse move at: 684 227
+Mouse move at: 684 226
+Mouse move at: 684 225
+Mouse move at: 684 224
+Mouse move at: 684 224
+Mouse move at: 684 221
+Mouse move at: 684 217
+Mouse move at: 684 210
+Mouse move at: 685 199
+Mouse move at: 688 187
+Mouse move at: 689 179
+Mouse move at: 690 172
+Mouse move at: 691 166
+Mouse move at: 692 164
+Mouse move at: 693 162
+Mouse move at: 693 160
+Mouse move at: 694 160
+Mouse move at: 694 159
+Mouse move at: 694 158
+Mouse move at: 695 157
+Mouse move at: 695 156
+Mouse move at: 696 154
+Mouse move at: 696 152
+Mouse move at: 697 149
+Mouse move at: 697 144
+Mouse move at: 698 140
+Mouse move at: 698 135
+Mouse move at: 698 130
+Mouse move at: 698 126
+Mouse move at: 698 123
+Mouse move at: 698 121
+Mouse move at: 698 118
+Mouse move at: 698 117
+Mouse move at: 698 116
+Mouse move at: 698 115
+Mouse move at: 698 114
+Mouse move at: 698 114
+Mouse move at: 698 113
+Mouse move at: 698 112
+Mouse move at: 698 112
+Mouse Left button down at: 698 112
+Mouse move at: 698 112
+Mouse move at: 698 112
+Mouse move at: 699 113
+Mouse move at: 707 115
+Mouse move at: 724 118
+Mouse move at: 757 121
+Mouse move at: 802 124
+Mouse move at: 850 124
+Mouse move at: 901 124
+Mouse move at: 949 126
+Mouse move at: 994 130
+Mouse move at: 1035 132
+Mouse move at: 1072 138
+Mouse move at: 1111 144
+Mouse move at: 1143 148
+Mouse move at: 1179 154
+Mouse move at: 1208 158
+Mouse move at: 1230 161
+Mouse move at: 1245 162
+Mouse move at: 1257 162
+Mouse move at: 1264 162
+Mouse move at: 1267 162
+Mouse move at: 1269 162
+Mouse move at: 1270 162
+Mouse Left button up at: 1270 162
+Mouse move at: 1269 162
+Mouse move at: 1269 162
+Mouse move at: 1267 163
+Mouse move at: 1265 164
+Mouse move at: 1263 164
+Mouse move at: 1259 165
+Mouse move at: 1247 169
+Mouse move at: 1218 176
+Mouse move at: 1153 196
+Mouse move at: 1072 225
+Mouse move at: 986 259
+Mouse move at: 896 303
+Mouse move at: 800 350
+Mouse move at: 775 371
+Mouse move at: 723 415
+Mouse move at: 658 465
+Mouse move at: 594 503
+Mouse move at: 545 529
+Mouse move at: 516 542
+Mouse move at: 502 547
+Mouse move at: 494 548
+Mouse move at: 490 548
+Mouse move at: 488 548
+Mouse move at: 488 548
+Mouse move at: 487 548
+Mouse move at: 487 548
+Mouse move at: 487 547
+Mouse move at: 487 547
+Mouse move at: 487 546
+Mouse move at: 487 545
+Mouse move at: 487 544
+Mouse move at: 487 544
+Mouse move at: 487 544
+Mouse Left button down at: 487 544
+Mouse move at: 487 544
+Mouse Left button up at: 487 544
+Mouse move at: 488 544
+Mouse move at: 488 543
+Mouse move at: 489 543
+Mouse move at: 489 543
+Mouse move at: 490 543
+Mouse move at: 490 543
+Mouse move at: 491 544
+Mouse move at: 492 548
+Mouse move at: 493 554
+Mouse move at: 494 564
+Mouse move at: 495 576
+Mouse move at: 497 586
+Mouse move at: 498 594
+Mouse move at: 499 601
+Mouse move at: 499 607
+Mouse move at: 500 609
+Mouse move at: 500 610
+Mouse move at: 500 611
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client L pressed
+Client L released
+Client I pressed
+Client I released
+Client S pressed
+Client S released
+Client T pressed
+Client T released
+Client LEFT SHIFT released
+Client ENTER pressed
+Client ENTER released
+Client LEFT SHIFT pressed
+Client C pressed
+Client C released
+Client L pressed
+Client L released
+Client O pressed
+Client O released
+Client S pressed
+Client S released
+Client E pressed
+Client E released
+Client LEFT SHIFT released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client 0 released
+Client LEFT SHIFT released
+Client ENTER pressed
+Client ENTER released
+Mouse move at: 550 572
+Mouse move at: 634 509
+Mouse move at: 723 443
+Mouse move at: 811 383
+Mouse move at: 832 358
+Mouse move at: 881 314
+Mouse move at: 942 268
+Mouse move at: 1002 235
+Mouse move at: 1054 217
+Mouse move at: 1091 206
+Mouse move at: 1113 203
+Mouse move at: 1127 202
+Mouse move at: 1133 202
+Mouse move at: 1136 202
+Mouse move at: 1138 202
+Mouse move at: 1139 202
+Mouse move at: 1139 205
+Mouse move at: 1139 207
+Mouse move at: 1139 211
+Mouse move at: 1139 214
+Mouse move at: 1138 218
+Mouse move at: 1137 220
+Mouse move at: 1135 223
+Mouse move at: 1134 224
+Mouse move at: 1132 226
+Mouse move at: 1132 226
+Mouse move at: 1131 228
+Mouse move at: 1130 228
+Mouse move at: 1130 229
+Mouse move at: 1129 229
+Mouse move at: 1128 229
+Mouse move at: 1128 230
+Mouse move at: 1128 229
+Mouse move at: 1128 228
+Mouse move at: 1128 226
+Mouse move at: 1130 223
+Mouse move at: 1132 222
+Mouse move at: 1134 219
+Mouse move at: 1140 215
+Mouse move at: 1149 210
+Mouse move at: 1162 203
+Mouse move at: 1175 199
+Mouse move at: 1186 196
+Mouse move at: 1194 195
+Mouse move at: 1200 194
+Mouse move at: 1202 194
+Mouse move at: 1205 194
+Mouse move at: 1207 194
+Mouse move at: 1207 194
+Mouse move at: 1208 194
+Mouse move at: 1208 193
+Mouse move at: 1209 193
+Mouse move at: 1209 192
+Mouse move at: 1209 190
+Mouse move at: 1209 189
+Mouse move at: 1209 188
+Mouse move at: 1209 187
+Mouse move at: 1209 185
+Mouse move at: 1209 184
+Mouse move at: 1209 183
+Mouse move at: 1209 182
+Mouse move at: 1209 181
+Mouse move at: 1209 181
+Mouse move at: 1209 180
+Mouse move at: 1209 179
+Mouse move at: 1208 179
+Mouse move at: 1208 177
+Mouse move at: 1207 176
+Mouse move at: 1206 175
+Mouse move at: 1204 174
+Mouse move at: 1203 172
+Mouse move at: 1202 171
+Mouse move at: 1200 171
+Mouse move at: 1200 171
+Mouse Left button down at: 1200 171
+Mouse move at: 1200 171
+Mouse move at: 1202 172
+Mouse move at: 1207 174
+Mouse move at: 1213 176
+Mouse move at: 1220 179
+Mouse move at: 1227 180
+Mouse move at: 1235 182
+Mouse move at: 1242 184
+Mouse move at: 1249 186
+Mouse move at: 1253 187
+Mouse move at: 1258 189
+Mouse move at: 1261 190
+Mouse move at: 1264 190
+Mouse move at: 1264 191
+Mouse move at: 1266 191
+Mouse move at: 1267 191
+Mouse Left button up at: 1267 191
+Mouse move at: 1267 192
+Mouse Left button down at: 1267 192
+Mouse move at: 1267 192
+Mouse move at: 1267 193
+Mouse move at: 1267 194
+Mouse move at: 1267 195
+Mouse move at: 1267 197
+Mouse move at: 1267 201
+Mouse move at: 1267 204
+Mouse move at: 1267 208
+Mouse move at: 1267 212
+Mouse move at: 1267 217
+Mouse move at: 1268 221
+Mouse move at: 1268 223
+Mouse move at: 1268 226
+Mouse move at: 1269 229
+Mouse move at: 1269 229
+Mouse move at: 1269 230
+Mouse move at: 1269 231
+Mouse move at: 1269 232
+Mouse move at: 1269 232
+Mouse Left button up at: 1269 232
+Mouse Left button down at: 1269 232
+Mouse move at: 1270 233
+Mouse move at: 1271 234
+Mouse move at: 1272 235
+Mouse move at: 1274 237
+Mouse move at: 1277 240
+Mouse move at: 1279 243
+Mouse move at: 1282 245
+Mouse move at: 1284 247
+Mouse move at: 1285 249
+Mouse move at: 1287 250
+Mouse move at: 1289 251
+Mouse move at: 1290 252
+Mouse move at: 1290 252
+Mouse move at: 1290 252
+Mouse move at: 1291 253
+Mouse move at: 1292 253
+Mouse move at: 1292 253
+Mouse move at: 1291 253
+Mouse move at: 1290 253
+Mouse move at: 1290 252
+Mouse move at: 1288 251
+Mouse move at: 1287 250
+Mouse move at: 1286 248
+Mouse move at: 1283 245
+Mouse move at: 1281 242
+Mouse move at: 1278 238
+Mouse move at: 1275 235
+Mouse move at: 1273 233
+Mouse move at: 1271 230
+Mouse move at: 1269 227
+Mouse move at: 1269 225
+Mouse move at: 1267 224
+Mouse move at: 1266 224
+Mouse move at: 1266 223
+Mouse move at: 1266 222
+Mouse move at: 1266 222
+Mouse move at: 1266 222
+Mouse move at: 1266 223
+Mouse move at: 1267 223
+Mouse move at: 1267 225
+Mouse move at: 1268 227
+Mouse move at: 1268 228
+Mouse move at: 1268 230
+Mouse move at: 1269 231
+Mouse move at: 1269 231
+Mouse move at: 1269 232
+Mouse move at: 1270 233
+Mouse move at: 1270 234
+Mouse move at: 1270 234
+Mouse move at: 1270 234
+Mouse move at: 1270 232
+Mouse move at: 1270 229
+Mouse move at: 1269 228
+Mouse move at: 1268 225
+Mouse move at: 1268 223
+Mouse move at: 1268 222
+Mouse move at: 1267 221
+Mouse move at: 1267 220
+Mouse Left button up at: 1267 220
+Mouse move at: 1267 220
+Mouse move at: 1267 221
+Mouse move at: 1267 221
+Mouse move at: 1267 222
+Mouse move at: 1267 223
+Mouse move at: 1267 223
+Mouse move at: 1266 223
+Mouse move at: 1264 223
+Mouse move at: 1259 223
+Mouse move at: 1250 222
+Mouse move at: 1238 219
+Mouse move at: 1221 218
+Mouse move at: 1206 215
+Mouse move at: 1191 213
+Mouse move at: 1176 211
+Mouse move at: 1166 209
+Mouse move at: 1157 208
+Mouse move at: 1150 206
+Mouse move at: 1147 205
+Mouse move at: 1144 204
+Mouse move at: 1144 204
+Mouse move at: 1143 203
+Mouse move at: 1143 203
+Mouse move at: 1142 202
+Mouse move at: 1142 202
+Mouse move at: 1140 202
+Mouse move at: 1136 202
+Mouse move at: 1133 202
+Mouse move at: 1122 202
+Mouse move at: 1107 202
+Mouse move at: 1087 202
+Mouse move at: 1056 202
+Mouse move at: 1012 203
+Mouse move at: 969 209
+Mouse move at: 929 218
+Mouse move at: 883 227
+Mouse move at: 842 237
+Mouse move at: 805 248
+Mouse move at: 771 255
+Mouse move at: 743 267
+Mouse move at: 722 275
+Mouse move at: 700 283
+Mouse move at: 686 290
+Mouse move at: 676 294
+Mouse move at: 670 299
+Mouse move at: 664 301
+Mouse move at: 662 303
+Mouse move at: 660 305
+Mouse move at: 660 306
+Mouse move at: 659 306
+Mouse move at: 659 307
+Mouse move at: 659 308
+Mouse move at: 659 308
+Mouse move at: 658 309
+Mouse move at: 658 309
+Mouse move at: 657 310
+Mouse move at: 656 310
+Mouse move at: 655 311
+Mouse move at: 654 311
+Mouse move at: 653 311
+Mouse move at: 653 311
+Mouse Left button down at: 653 311
+Mouse move at: 652 311
+Mouse move at: 651 311
+Mouse move at: 650 311
+Mouse Left button up at: 650 311
+Client LEFT SHIFT pressed
+Client D pressed
+Client D released
+Client I pressed
+Client I released
+Client S pressed
+Client S released
+Client P pressed
+Client L pressed
+Client P released
+Client L released
+Client A pressed
+Client A released
+Client Y pressed
+Client Y released
+Client LEFT SHIFT released
+Client 8 pressed
+Client 8 released
+Client LEFT SHIFT pressed
+Client L pressed
+Client L released
+Client O pressed
+Client O released
+Client G pressed
+Client G released
+Client LEFT SHIFT released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client LEFT SHIFT released
+Client 0 released
+Client ENTER pressed
+Client ENTER released
+Client LEFT SHIFT pressed
+Client E pressed
+Client E released
+Client X pressed
+Client X released
+Client I pressed
+Client I released
+Client T pressed
+Client T released
+Client LEFT SHIFT released
+Client ENTER pressed
+Client ENTER released
+Mouse move at: 676 307
+Mouse move at: 726 295
+Mouse move at: 779 286
+Mouse move at: 832 277
+Mouse move at: 882 268
+Mouse move at: 934 261
+Mouse move at: 976 257
+Mouse move at: 1015 253
+Mouse move at: 1047 251
+Mouse move at: 1068 249
+Mouse move at: 1081 249
+Mouse move at: 1090 249
+Mouse move at: 1095 249
+Mouse move at: 1098 249
+Mouse move at: 1098 249
+Mouse move at: 1099 249
+Mouse move at: 1099 249
+Mouse move at: 1099 250
+Mouse move at: 1099 250
+Mouse move at: 1099 252
+Mouse move at: 1099 254
+Mouse move at: 1098 255
+Mouse move at: 1098 257
+Mouse move at: 1096 259
+Mouse move at: 1094 261
+Mouse move at: 1092 262
+Mouse move at: 1089 264
+Mouse move at: 1087 266
+Mouse move at: 1081 269
+Mouse move at: 1074 273
+Mouse move at: 1068 277
+Mouse move at: 1056 282
+Mouse move at: 1042 287
+Mouse move at: 1030 292
+Mouse move at: 1009 303
+Mouse move at: 987 313
+Mouse move at: 973 320
+Mouse move at: 953 329
+Mouse move at: 937 336
+Mouse move at: 925 342
+Mouse move at: 913 347
+Mouse move at: 899 353
+Mouse move at: 887 357
+Mouse move at: 880 359
+Mouse move at: 871 362
+Mouse move at: 862 364
+Mouse move at: 857 365
+Mouse move at: 853 365
+Mouse move at: 850 365
+Mouse move at: 849 365
+Mouse move at: 847 365
+Mouse move at: 846 365
+Mouse move at: 846 365
+Mouse move at: 845 365
+Mouse move at: 845 365
+Mouse move at: 845 364
+Mouse move at: 845 363
+Mouse move at: 845 363
+Mouse move at: 845 363
+Mouse move at: 845 363
+Mouse move at: 846 362
+Mouse move at: 847 361
+Mouse move at: 847 361
+Mouse move at: 847 361
+Mouse move at: 848 361
+Mouse move at: 849 360
+Mouse move at: 850 360
+Mouse move at: 850 359
+Mouse move at: 851 359
+Mouse move at: 852 358
+Mouse move at: 852 358
+Mouse move at: 853 358
+Mouse move at: 854 358
+Mouse move at: 855 358
+Mouse move at: 855 358
+Mouse move at: 856 357
+Mouse move at: 857 357
+Mouse move at: 857 357
+Mouse move at: 859 356
+Mouse move at: 861 355
+Mouse move at: 863 355
+Mouse move at: 866 354
+Mouse move at: 870 354
+Mouse move at: 874 354
+Mouse move at: 878 353
+Mouse move at: 880 352
+Mouse move at: 883 352
+Mouse move at: 885 351
+Mouse move at: 886 351
+Mouse move at: 888 350
+Mouse move at: 889 350
+Mouse move at: 890 350
+Mouse move at: 892 349
+Mouse move at: 896 349
+Mouse move at: 896 349
+Mouse move at: 898 349
+Mouse move at: 902 348
+Mouse move at: 910 347
+Mouse move at: 924 343
+Mouse move at: 944 337
+Mouse move at: 974 329
+Mouse move at: 1004 322
+Mouse move at: 1034 316
+Mouse move at: 1064 308
+Mouse move at: 1090 303
+Mouse move at: 1114 298
+Mouse move at: 1133 295
+Mouse move at: 1152 292
+Mouse move at: 1167 290
+Mouse move at: 1182 287
+Mouse move at: 1194 286
+Mouse move at: 1203 284
+Mouse move at: 1209 284
+Mouse move at: 1213 283
+Mouse move at: 1216 283
+Mouse move at: 1218 283
+Mouse move at: 1218 283
+Mouse move at: 1219 283
+Mouse move at: 1220 283
+Mouse move at: 1220 283
+Mouse move at: 1221 283
+Mouse move at: 1222 283
+Mouse move at: 1223 283
+Mouse move at: 1223 283
+Mouse move at: 1223 283
+Mouse move at: 1224 282
+Mouse move at: 1225 281
+Mouse move at: 1225 280
+Mouse move at: 1225 279
+Mouse move at: 1226 277
+Mouse move at: 1226 277
+Mouse move at: 1227 275
+Mouse move at: 1227 273
+Mouse move at: 1228 272
+Mouse move at: 1228 270
+Mouse move at: 1228 268
+Mouse move at: 1228 266
+Mouse move at: 1228 263
+Mouse move at: 1228 259
+Mouse move at: 1228 257
+Mouse move at: 1228 255
+Mouse move at: 1227 253
+Mouse move at: 1227 252
+Mouse move at: 1227 251
+Mouse move at: 1227 250
+Mouse move at: 1227 250
+Mouse move at: 1227 249
+Mouse move at: 1227 248
+Mouse move at: 1227 247
+Mouse move at: 1227 246
+Mouse move at: 1226 242
+Mouse move at: 1225 238
+Mouse move at: 1223 230
+Mouse move at: 1221 222
+Mouse move at: 1219 215
+Mouse move at: 1216 210
+Mouse move at: 1215 206
+Mouse move at: 1214 204
+Mouse move at: 1214 203
+Mouse move at: 1213 203
+Mouse move at: 1212 203
+Mouse move at: 1212 204
+Mouse move at: 1212 205
+Mouse move at: 1212 206
+Mouse move at: 1212 207
+Mouse move at: 1212 207
+Mouse move at: 1212 209
+Mouse move at: 1212 210
+Mouse move at: 1212 210
+Mouse Left button down at: 1212 210
+Mouse Left button up at: 1212 210
+Mouse move at: 1212 212
+Mouse move at: 1214 213
+Mouse move at: 1223 217
+Mouse move at: 1235 221
+Mouse move at: 1252 225
+Mouse move at: 1274 230
+Mouse move at: 1298 236
+Mouse move at: 1322 243
+Mouse move at: 1341 246
+Mouse move at: 1361 251
+Mouse move at: 1376 255
+Mouse move at: 1391 258
+Mouse move at: 1405 262
+Mouse move at: 1419 265
+Mouse move at: 1432 267
+Mouse move at: 1446 270
+Mouse move at: 1461 271
+Mouse move at: 1476 273
+Mouse move at: 1491 274
+Mouse move at: 1509 275
+Mouse move at: 1524 275
+Mouse move at: 1539 275
+Mouse move at: 1554 275
+Mouse move at: 1574 275
+Mouse move at: 1601 275
+Mouse move at: 1629 275
+Mouse move at: 1659 275
+Mouse move at: 1659 275
+Mouse move at: 1659 275
+Mouse move at: 1659 274
+Mouse move at: 1659 274
+Mouse move at: 1660 273
+Mouse move at: 1662 271
+Mouse move at: 1665 267
+Mouse move at: 1674 259
+Mouse move at: 1688 248
+Mouse move at: 1706 235
+Mouse move at: 1727 221
+Mouse move at: 1740 214
+Mouse move at: 1750 209
+Mouse move at: 1755 207
+Mouse move at: 1758 206
+Mouse move at: 1760 206
+Mouse move at: 1760 206
+Mouse move at: 1761 206
+Mouse move at: 1761 206
+Mouse move at: 1761 206
+Mouse move at: 1761 206
+Mouse move at: 1762 206
+Mouse move at: 1762 206
+Mouse move at: 1763 206
+Mouse move at: 1764 206
+Mouse move at: 1764 206
+Mouse move at: 1765 206
+Mouse move at: 1766 206
+Mouse move at: 1767 206
+Mouse move at: 1768 206
+Mouse move at: 1770 206
+Mouse move at: 1771 206
+Mouse move at: 1774 207
+Mouse move at: 1777 207
+Mouse move at: 1779 208
+Mouse move at: 1783 209
+Mouse move at: 1786 210
+Mouse move at: 1790 211
+Mouse move at: 1793 212
+Mouse move at: 1794 213
+Mouse move at: 1796 214
+Mouse move at: 1797 214
+Mouse move at: 1797 214
+Mouse move at: 1797 215
+Mouse move at: 1798 215
+Mouse move at: 1798 215
+Mouse Left button down at: 1798 215
+Mouse move at: 1798 215
+Mouse Left button up at: 1798 215
+Mouse Left button down at: 906 1054
+Mouse Left button up at: 906 1054
+Mouse Left button down at: 906 1054
+Mouse move at: 905 1054
+Mouse Left button up at: 905 1054
+Mouse move at: 905 1054
+Mouse move at: 904 1054
+Mouse move at: 903 1054
+Mouse move at: 902 1054
+Mouse move at: 901 1054
+Mouse move at: 900 1054
+Mouse move at: 898 1054
+Mouse move at: 894 1054
+Mouse move at: 889 1054
+Mouse move at: 882 1054
+Mouse move at: 875 1054
+Mouse move at: 867 1054
+Mouse move at: 860 1054
+Mouse move at: 855 1053
+Mouse move at: 851 1053
+Mouse move at: 850 1053
+Mouse move at: 847 1053
+Mouse move at: 846 1053
+Mouse move at: 845 1053
+Mouse move at: 843 1053
+Mouse move at: 839 1053
+Mouse move at: 836 1053
+Mouse move at: 831 1053
+Mouse move at: 825 1053
+Mouse move at: 819 1053
+Mouse move at: 812 1053
+Mouse move at: 807 1053
+Mouse move at: 802 1053
+Mouse move at: 798 1053
+Mouse move at: 795 1053
+Mouse move at: 793 1053
+Mouse move at: 792 1053
+Mouse move at: 791 1053
+Mouse move at: 790 1053
+Mouse move at: 790 1053
+Mouse move at: 789 1053
+Mouse move at: 788 1053
+Mouse Left button down at: 788 1053
+Mouse Left button up at: 788 1053
+Mouse move at: 788 1052
+Mouse move at: 788 1051
+Mouse move at: 788 1048
+Mouse move at: 788 1044
+Mouse move at: 789 1039
+Mouse move at: 789 1034
+Mouse move at: 790 1025
+Mouse move at: 790 1015
+Mouse move at: 792 1002
+Mouse move at: 793 988
+Mouse move at: 794 972
+Mouse move at: 794 957
+Mouse move at: 796 944
+Mouse move at: 797 933
+Mouse move at: 797 925
+Mouse move at: 797 918
+Mouse move at: 797 915
+Mouse move at: 797 914
+Mouse move at: 797 912
+Mouse move at: 797 912
+Mouse move at: 796 912
+Mouse move at: 794 912
+Mouse move at: 790 912
+Mouse move at: 787 912
+Mouse move at: 783 912
+Mouse move at: 779 912
+Mouse move at: 774 911
+Mouse move at: 770 910
+Mouse move at: 764 909
+Mouse move at: 761 908
+Mouse move at: 757 907
+Mouse move at: 754 907
+Mouse move at: 752 906
+Mouse move at: 752 906
+Mouse move at: 751 906
+Mouse move at: 750 906
+Mouse move at: 750 905
+Mouse move at: 749 905
+Mouse move at: 749 905
+Mouse move at: 746 905
+Mouse move at: 745 905
+Mouse move at: 742 905
+Mouse move at: 739 905
+Mouse move at: 737 905
+Mouse move at: 734 905
+Mouse move at: 731 905
+Mouse move at: 730 905
+Mouse move at: 728 905
+Mouse move at: 727 905
+Mouse move at: 726 905
+Mouse move at: 725 905
+Mouse move at: 724 905
+Mouse Left button down at: 724 905
+Mouse Left button up at: 724 905
+Mouse move at: 724 905
+Client LEFT CONTROL pressed
+Client LEFT CONTROL pressed
+Client L pressed
+Client LEFT CONTROL released
+Client L released
+Client M pressed
+Client A pressed
+Client M released
+Client A released
+Client K pressed
+Client K released
+Client E pressed
+Client E released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client R pressed
+Client R released
+Client E pressed
+Client ENTER pressed
+Client E released
+Client ENTER released
+Mouse move at: 726 900
+Mouse move at: 742 872
+Mouse move at: 787 795
+Mouse move at: 837 705
+Mouse move at: 886 614
+Mouse move at: 935 528
+Mouse move at: 976 457
+Mouse move at: 1015 390
+Mouse move at: 1043 344
+Mouse move at: 1067 306
+Mouse move at: 1089 278
+Mouse move at: 1105 262
+Mouse move at: 1124 245
+Mouse move at: 1139 233
+Mouse move at: 1151 225
+Mouse move at: 1160 220
+Mouse move at: 1165 219
+Mouse move at: 1168 218
+Mouse move at: 1170 218
+Mouse move at: 1170 218
+Mouse move at: 1171 218
+Mouse move at: 1172 218
+Mouse move at: 1173 218
+Mouse move at: 1176 218
+Mouse move at: 1181 218
+Mouse move at: 1185 217
+Mouse move at: 1188 215
+Mouse move at: 1189 214
+Mouse move at: 1191 213
+Mouse move at: 1193 212
+Mouse move at: 1194 211
+Mouse move at: 1194 209
+Mouse move at: 1197 205
+Mouse move at: 1204 198
+Mouse move at: 1209 189
+Mouse move at: 1214 181
+Mouse move at: 1217 177
+Mouse move at: 1219 173
+Mouse move at: 1221 171
+Mouse move at: 1222 169
+Mouse move at: 1222 168
+Mouse move at: 1222 167
+Mouse move at: 1222 165
+Mouse move at: 1222 164
+Mouse move at: 1222 162
+Mouse move at: 1222 161
+Mouse move at: 1222 159
+Mouse move at: 1222 157
+Mouse move at: 1221 156
+Mouse move at: 1221 156
+Mouse move at: 1220 155
+Mouse move at: 1220 154
+Mouse move at: 1219 154
+Mouse move at: 1219 154
+Mouse move at: 1219 153
+Mouse move at: 1218 153
+Mouse Left button down at: 1218 153
+Mouse move at: 1218 152
+Mouse Left button up at: 1218 152
+Mouse move at: 1466 402
+Mouse move at: 1465 406
+Mouse move at: 1458 415
+Mouse move at: 1441 433
+Mouse move at: 1395 474
+Mouse move at: 1341 513
+Mouse move at: 1280 556
+Mouse move at: 1222 597
+Mouse move at: 1164 639
+Mouse move at: 1109 682
+Mouse move at: 1051 725
+Mouse move at: 999 767
+Mouse move at: 952 800
+Mouse move at: 910 832
+Mouse move at: 876 858
+Mouse move at: 844 883
+Mouse move at: 819 905
+Mouse move at: 802 917
+Mouse move at: 791 928
+Mouse move at: 781 938
+Mouse move at: 776 944
+Mouse move at: 773 947
+Mouse move at: 772 948
+Mouse move at: 771 950
+Mouse move at: 771 951
+Mouse move at: 771 952
+Mouse move at: 771 952
+Mouse move at: 771 953
+Mouse move at: 771 955
+Mouse move at: 771 959
+Mouse move at: 771 966
+Mouse move at: 771 979
+Mouse move at: 771 995
+Mouse move at: 772 1016
+Mouse move at: 772 1033
+Mouse move at: 772 1048
+Mouse move at: 774 1059
+Mouse move at: 775 1068
+Mouse move at: 775 1072
+Mouse move at: 775 1074
+Mouse move at: 776 1076
+Mouse move at: 776 1077
+Mouse move at: 776 1077
+Mouse Left button down at: 776 1077
+Mouse Left button up at: 776 1077
+Mouse move at: 777 1075
+Mouse move at: 778 1062
+Mouse move at: 785 1020
+Mouse move at: 798 944
+Mouse move at: 811 871
+Mouse move at: 826 801
+Mouse move at: 838 744
+Mouse move at: 849 700
+Mouse move at: 856 670
+Mouse move at: 861 644
+Mouse move at: 866 627
+Mouse move at: 868 615
+Mouse move at: 871 609
+Mouse move at: 871 605
+Mouse move at: 871 603
+Mouse move at: 871 602
+Mouse move at: 871 601
+Mouse move at: 871 601
+Mouse move at: 871 602
+Mouse move at: 870 606
+Mouse move at: 868 612
+Mouse move at: 862 623
+Mouse move at: 855 640
+Mouse move at: 844 666
+Mouse move at: 831 695
+Mouse move at: 818 729
+Mouse move at: 807 761
+Mouse move at: 797 795
+Mouse move at: 789 822
+Mouse move at: 783 840
+Mouse move at: 779 855
+Mouse move at: 777 864
+Mouse move at: 776 869
+Mouse move at: 775 873
+Mouse move at: 775 875
+Mouse move at: 774 875
+Mouse move at: 773 876
+Mouse move at: 772 878
+Mouse move at: 770 880
+Mouse move at: 767 882
+Mouse move at: 760 888
+Mouse move at: 751 895
+Mouse move at: 742 901
+Mouse move at: 736 906
+Mouse move at: 728 911
+Mouse move at: 721 917
+Mouse move at: 713 921
+Mouse move at: 707 924
+Mouse move at: 701 929
+Mouse move at: 694 933
+Mouse move at: 690 936
+Mouse move at: 687 938
+Mouse move at: 685 939
+Mouse move at: 685 940
+Mouse move at: 685 940
+Mouse Left button down at: 685 940
+Mouse Left button up at: 685 940
+Mouse move at: 685 939
+Mouse move at: 691 931
+Mouse move at: 704 907
+Mouse move at: 727 861
+Mouse move at: 753 815
+Mouse move at: 778 771
+Mouse move at: 800 732
+Mouse move at: 822 695
+Mouse move at: 838 665
+Mouse move at: 852 642
+Mouse move at: 863 625
+Mouse move at: 873 611
+Mouse move at: 879 599
+Mouse move at: 884 591
+Mouse move at: 888 587
+Mouse move at: 889 585
+Mouse move at: 890 583
+Mouse move at: 890 583
+Mouse move at: 891 583
+Mouse move at: 891 582
+Client LEFT SHIFT pressed
+Client L pressed
+Client I pressed
+Client L released
+Client I released
+Client S pressed
+Client S released
+Client T pressed
+Client T released
+Client LEFT SHIFT released
+Client ENTER pressed
+Client ENTER released
+Client LEFT SHIFT pressed
+Client C pressed
+Client C released
+Client L pressed
+Client L released
+Client O pressed
+Client O released
+Client S pressed
+Client S released
+Client E pressed
+Client E released
+Client LEFT SHIFT released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client LEFT SHIFT released
+Client 0 released
+Client ENTER pressed
+Client ENTER released
+Client LEFT SHIFT pressed
+Client C pressed
+Client C released
+Client L pressed
+Client L released
+Client O pressed
+Client O released
+Client S pressed
+Client S released
+Client E pressed
+Client E released
+Client LEFT SHIFT released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client LEFT SHIFT released
+Client 0 released
+Client ENTER pressed
+Client ENTER released
+Client LEFT SHIFT pressed
+Client D pressed
+Client D released
+Client I pressed
+Client I released
+Client S pressed
+Client S released
+Client P pressed
+Client L pressed
+Client P released
+Client L released
+Client A pressed
+Client A released
+Client Y pressed
+Client Y released
+Client LEFT SHIFT released
+Client 8 pressed
+Client 8 released
+Client LEFT SHIFT pressed
+Client L pressed
+Client L released
+Client O pressed
+Client O released
+Client G pressed
+Client G released
+Client LEFT SHIFT released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client LEFT SHIFT released
+Client 0 released
+Client ENTER pressed
+Client ENTER released
+Mouse move at: 893 580
+Mouse move at: 902 573
+Mouse move at: 927 550
+Mouse move at: 976 501
+Mouse move at: 1031 438
+Mouse move at: 1092 363
+Mouse move at: 1153 278
+Mouse move at: 1206 201
+Mouse move at: 1247 133
+Mouse move at: 1270 91
+Mouse move at: 1280 68
+Mouse move at: 1284 56
+Mouse move at: 1286 49
+Mouse move at: 1286 45
+Mouse move at: 1286 43
+Mouse move at: 1285 40
+Mouse move at: 1279 36
+Mouse move at: 1268 29
+Mouse move at: 1256 22
+Mouse move at: 1241 15
+Mouse move at: 1223 9
+Mouse move at: 1203 3
+Mouse move at: 1183 -2
+Mouse move at: 1160 -3
+Mouse move at: 1143 -3
+Mouse move at: 1127 -1
+Mouse move at: 1113 -1
+Mouse move at: 1101 -3
+Mouse move at: 1091 -1
+Mouse move at: 1084 -3
+Mouse move at: 1079 -1
+Mouse move at: 1071 -2
+Mouse move at: 1066 -1
+Mouse move at: 1059 -2
+Mouse move at: 1052 -1
+Mouse move at: 1042 0
+Mouse move at: 1032 0
+Mouse move at: 1022 0
+Mouse move at: 1008 2
+Mouse move at: 998 5
+Mouse move at: 984 10
+Mouse move at: 970 16
+Mouse move at: 960 21
+Mouse move at: 952 25
+Mouse move at: 946 28
+Mouse move at: 939 33
+Mouse move at: 935 35
+Mouse move at: 932 37
+Mouse move at: 930 38
+Mouse move at: 929 39
+Mouse move at: 928 39
+Mouse move at: 928 40
+Mouse move at: 927 41
+Mouse move at: 926 43
+Mouse move at: 924 49
+Mouse move at: 922 57
+Mouse move at: 922 58
+Mouse move at: 922 59
+Mouse move at: 922 60
+Mouse move at: 922 61
+Mouse move at: 922 64
+Mouse move at: 925 68
+Mouse move at: 931 77
+Mouse move at: 939 88
+Mouse move at: 949 102
+Mouse move at: 961 119
+Mouse move at: 971 133
+Mouse move at: 981 145
+Mouse move at: 989 156
+Mouse move at: 999 167
+Mouse move at: 1007 176
+Mouse move at: 1016 186
+Mouse move at: 1024 193
+Mouse move at: 1033 203
+Mouse move at: 1043 212
+Mouse move at: 1053 220
+Mouse move at: 1063 227
+Mouse move at: 1073 235
+Mouse move at: 1083 242
+Mouse move at: 1092 248
+Mouse move at: 1099 255
+Mouse move at: 1105 259
+Mouse move at: 1111 264
+Mouse move at: 1117 268
+Mouse move at: 1121 272
+Mouse move at: 1125 275
+Mouse move at: 1128 278
+Mouse move at: 1130 280
+Mouse move at: 1132 283
+Mouse move at: 1133 284
+Mouse move at: 1135 286
+Mouse move at: 1136 287
+Mouse move at: 1136 288
+Mouse move at: 1137 288
+Mouse move at: 1137 288
+Mouse move at: 1138 288
+Mouse move at: 1141 289
+Mouse move at: 1147 290
+Mouse move at: 1156 294
+Mouse move at: 1168 298
+Mouse move at: 1181 302
+Mouse move at: 1193 306
+Mouse move at: 1202 309
+Mouse move at: 1208 310
+Mouse move at: 1210 311
+Mouse move at: 1213 312
+Mouse move at: 1214 312
+Mouse move at: 1214 312
+Mouse move at: 1215 312
+Mouse Left button down at: 1215 312
+Mouse Left button up at: 1215 312
+Mouse move at: 1215 312
+Mouse move at: 1215 312
+Mouse move at: 1215 312
+Mouse move at: 1215 310
+Mouse move at: 1215 310
+Mouse move at: 1215 309
+Mouse move at: 1215 308
+Mouse move at: 1215 307
+Mouse move at: 1215 306
+Mouse move at: 1215 305
+Mouse move at: 1215 305
+Mouse move at: 1215 304
+Mouse move at: 1215 303
+Mouse move at: 1215 303
+Mouse move at: 1214 303
+Mouse move at: 1213 302
+Mouse move at: 1213 301
+Mouse move at: 1211 300
+Mouse move at: 1209 298
+Mouse move at: 1206 295
+Mouse move at: 1202 292
+Mouse move at: 1196 287
+Mouse move at: 1193 284
+Mouse move at: 1190 282
+Mouse move at: 1189 280
+Mouse move at: 1188 280
+Mouse move at: 1187 280
+Mouse move at: 1187 279
+Mouse move at: 1187 278
+Mouse move at: 1187 277
+Mouse move at: 1187 277
+Mouse move at: 1187 276
+Mouse move at: 1189 272
+Mouse move at: 1193 268
+Mouse move at: 1203 257
+Mouse move at: 1218 242
+Mouse move at: 1237 225
+Mouse move at: 1250 214
+Mouse move at: 1257 207
+Mouse move at: 1263 201
+Mouse move at: 1266 199
+Mouse move at: 1268 198
+Mouse move at: 1269 198
+Mouse move at: 1269 197
+Mouse move at: 1269 196
+Mouse move at: 1269 196
+Mouse move at: 1269 194
+Mouse move at: 1269 191
+Mouse move at: 1267 188
+Mouse move at: 1265 186
+Mouse move at: 1263 182
+Mouse move at: 1261 179
+Mouse move at: 1260 177
+Mouse move at: 1259 176
+Mouse move at: 1259 176
+Mouse move at: 1259 175
+Mouse move at: 1258 175
+Mouse move at: 1258 174
+Mouse move at: 1257 174
+Mouse move at: 1257 174
+Mouse Left button down at: 1257 174
+Mouse Left button up at: 1257 174
+Mouse move at: 722 1012
+Mouse move at: 708 1003
+Mouse move at: 696 996
+Mouse move at: 685 989
+Mouse move at: 674 982
+Mouse move at: 667 977
+Mouse move at: 661 974
+Mouse move at: 655 972
+Mouse move at: 651 969
+Mouse move at: 648 969
+Mouse move at: 646 968
+Mouse move at: 645 968
+Mouse move at: 644 967
+Mouse move at: 643 967
+Mouse Left button down at: 643 967
+Mouse Left button up at: 643 967
+Mouse move at: 644 967
+Mouse move at: 647 967
+Mouse move at: 652 969
+Mouse move at: 661 972
+Mouse move at: 673 976
+Mouse move at: 685 980
+Mouse move at: 699 984
+Mouse move at: 711 988
+Mouse move at: 718 991
+Mouse move at: 725 994
+Mouse move at: 729 996
+Mouse move at: 732 998
+Mouse move at: 735 1000
+Mouse move at: 737 1001
+Mouse move at: 738 1003
+Mouse move at: 739 1005
+Mouse move at: 741 1008
+Mouse move at: 742 1010
+Mouse move at: 743 1013
+Mouse move at: 745 1016
+Mouse move at: 745 1019
+Mouse move at: 746 1020
+Mouse move at: 746 1022
+Mouse move at: 746 1023
+Mouse move at: 746 1024
+Mouse move at: 746 1026
+Mouse move at: 746 1028
+Mouse move at: 746 1031
+Mouse move at: 746 1034
+Mouse move at: 746 1038
+Mouse move at: 745 1040
+Mouse move at: 745 1042
+Mouse move at: 744 1045
+Mouse move at: 744 1045
+Mouse move at: 744 1046
+Mouse move at: 744 1047
+Mouse Left button down at: 744 1047
+Mouse Left button up at: 744 1047
+Mouse move at: 742 1045
+Mouse move at: 739 1041
+Mouse move at: 734 1032
+Mouse move at: 726 1020
+Mouse move at: 714 1003
+Mouse move at: 703 986
+Mouse move at: 693 974
+Mouse move at: 685 963
+Mouse move at: 679 955
+Mouse move at: 674 951
+Mouse move at: 672 948
+Mouse move at: 671 946
+Mouse move at: 670 945
+Mouse move at: 669 945
+Mouse move at: 668 945
+Mouse Left button down at: 668 945
+Mouse move at: 668 945
+Mouse Left button up at: 668 945
+Mouse move at: 670 945
+Mouse move at: 678 945
+Mouse move at: 694 945
+Mouse move at: 723 947
+Mouse move at: 768 951
+Mouse move at: 814 958
+Mouse move at: 856 962
+Mouse move at: 891 966
+Mouse move at: 922 974
+Mouse move at: 939 978
+Mouse move at: 951 982
+Mouse move at: 957 985
+Mouse move at: 959 987
+Mouse move at: 961 988
+Mouse move at: 962 989
+Mouse move at: 962 990
+Mouse move at: 962 992
+Mouse move at: 962 997
+Mouse move at: 959 1004
+Mouse move at: 955 1015
+Mouse move at: 954 1025
+Mouse move at: 953 1034
+Mouse move at: 952 1041
+Mouse move at: 952 1046
+Mouse move at: 952 1048
+Mouse move at: 952 1050
+Mouse move at: 952 1051
+Mouse move at: 952 1051
+Mouse move at: 952 1052
+Mouse Left button down at: 952 1052
+Mouse move at: 952 1052
+Mouse Left button up at: 952 1052
+Mouse move at: 952 1052
+Mouse move at: 952 1052
+Mouse move at: 952 1051
+Mouse move at: 952 1050
+Mouse move at: 950 1044
+Mouse move at: 944 1035
+Mouse move at: 935 1023
+Mouse move at: 921 1001
+Mouse move at: 895 967
+Mouse move at: 869 932
+Mouse move at: 844 901
+Mouse move at: 813 868
+Mouse move at: 777 832
+Mouse move at: 735 795
+Mouse move at: 700 766
+Mouse move at: 662 737
+Mouse move at: 628 714
+Mouse move at: 600 694
+Mouse move at: 580 680
+Mouse move at: 562 667
+Mouse move at: 548 658
+Mouse move at: 537 648
+Mouse move at: 530 640
+Mouse move at: 523 633
+Mouse move at: 518 625
+Mouse move at: 514 618
+Mouse move at: 513 612
+Mouse move at: 513 610
+Mouse move at: 513 607
+Mouse move at: 513 605
+Mouse move at: 516 602
+Mouse move at: 516 600
+Mouse move at: 519 592
+Mouse move at: 525 570
+Mouse move at: 539 516
+Mouse move at: 554 455
+Mouse move at: 568 398
+Mouse move at: 582 348
+Mouse move at: 592 307
+Mouse move at: 600 277
+Mouse move at: 604 260
+Mouse move at: 607 250
+Mouse move at: 608 244
+Mouse move at: 609 242
+Mouse move at: 610 241
+Mouse move at: 610 240
+Mouse move at: 610 238
+Mouse move at: 611 237
+Mouse move at: 613 234
+Mouse move at: 614 231
+Mouse move at: 615 228
+Mouse move at: 616 226
+Mouse move at: 616 225
+Mouse move at: 616 223
+Mouse move at: 617 223
+Mouse Left button down at: 617 223
+Mouse move at: 625 220
+Mouse move at: 660 205
+Mouse move at: 732 182
+Mouse move at: 799 162
+Mouse move at: 867 144
+Mouse move at: 920 133
+Mouse move at: 953 127
+Mouse move at: 968 126
+Mouse move at: 977 126
+Mouse move at: 980 126
+Mouse move at: 981 126
+Mouse move at: 982 126
+Mouse Left button up at: 982 126
+Mouse move at: 977 128
+Mouse move at: 954 137
+Mouse move at: 906 156
+Mouse move at: 854 177
+Mouse move at: 798 201
+Mouse move at: 742 228
+Mouse move at: 693 254
+Mouse move at: 646 280
+Mouse move at: 603 302
+Mouse move at: 563 324
+Mouse move at: 530 345
+Mouse move at: 497 362
+Mouse move at: 470 379
+Mouse move at: 447 391
+Mouse move at: 424 404
+Mouse move at: 402 414
+Mouse move at: 385 425
+Mouse move at: 368 435
+Mouse move at: 354 444
+Mouse move at: 342 452
+Mouse move at: 331 460
+Mouse move at: 320 467
+Mouse move at: 314 472
+Mouse move at: 310 476
+Mouse move at: 307 478
+Mouse move at: 305 479
+Mouse move at: 305 480
+Mouse move at: 305 480
+Mouse move at: 305 480
+Mouse Left button down at: 305 480
+Mouse Left button up at: 305 480
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client LEFT SHIFT pressed
+Client C pressed
+Client C released
+Client L pressed
+Client L released
+Client O pressed
+Client S pressed
+Client O released
+Client S released
+Client E pressed
+Client E released
+Client SPACEBAR pressed
+Client LEFT SHIFT released
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client LEFT SHIFT released
+Client 0 released
+Client ENTER pressed
+Client ENTER released
+Mouse move at: 305 480
+Mouse move at: 310 480
+Mouse move at: 327 479
+Mouse move at: 364 469
+Mouse move at: 431 454
+Mouse move at: 504 439
+Mouse move at: 584 424
+Mouse move at: 664 408
+Mouse move at: 751 393
+Mouse move at: 769 385
+Mouse move at: 827 368
+Mouse move at: 914 347
+Mouse move at: 1007 331
+Mouse move at: 1097 318
+Mouse move at: 1179 310
+Mouse move at: 1248 305
+Mouse move at: 1306 303
+Mouse move at: 1350 303
+Mouse move at: 1377 303
+Mouse move at: 1395 303
+Mouse move at: 1410 303
+Mouse move at: 1419 303
+Mouse move at: 1421 303
+Mouse move at: 1424 303
+Mouse move at: 1425 303
+Mouse move at: 1425 303
+Mouse Left button down at: 1425 303
+Mouse move at: 1425 303
+Mouse Left button up at: 1425 303
+Mouse move at: 1424 303
+Mouse move at: 1424 304
+Mouse move at: 1424 304
+Mouse move at: 1423 304
+Mouse move at: 1423 305
+Mouse move at: 1422 305
+Mouse move at: 1422 305
+Mouse move at: 1421 305
+Mouse move at: 1420 305
+Mouse move at: 1419 305
+Mouse move at: 1418 305
+Mouse move at: 1416 305
+Mouse move at: 1414 305
+Mouse move at: 1409 306
+Mouse move at: 1400 308
+Mouse move at: 1385 309
+Mouse move at: 1366 312
+Mouse move at: 1334 316
+Mouse move at: 1295 320
+Mouse move at: 1253 326
+Mouse move at: 1210 333
+Mouse move at: 1164 341
+Mouse move at: 1118 348
+Mouse move at: 1071 359
+Mouse move at: 1025 368
+Mouse move at: 978 377
+Mouse move at: 932 386
+Mouse move at: 892 394
+Mouse move at: 852 400
+Mouse move at: 822 408
+Mouse move at: 805 411
+Mouse move at: 792 413
+Mouse move at: 786 414
+Mouse move at: 784 414
+Mouse move at: 782 414
+Mouse move at: 778 414
+Mouse move at: 768 414
+Mouse move at: 748 414
+Mouse move at: 710 416
+Mouse move at: 666 416
+Mouse move at: 624 418
+Mouse move at: 589 420
+Mouse move at: 562 420
+Mouse move at: 544 422
+Mouse move at: 529 422
+Mouse move at: 519 423
+Mouse move at: 510 423
+Mouse move at: 505 423
+Mouse move at: 501 424
+Mouse move at: 500 424
+Mouse move at: 499 424
+Mouse move at: 498 424
+Mouse move at: 497 424
+Mouse move at: 497 424
+Mouse move at: 496 422
+Mouse move at: 489 406
+Mouse move at: 471 349
+Mouse move at: 449 252
+Mouse move at: 430 129
+Mouse move at: 421 3
+Mouse move at: 421 -55
+Mouse move at: 425 -58
+Mouse move at: 438 -73
+Mouse move at: 450 -77
+Mouse move at: 462 -56
+Mouse move at: 473 -41
+Mouse move at: 478 -20
+Mouse move at: 480 -9
+Mouse move at: 481 -4
+Mouse move at: 482 -1
+Mouse move at: 482 -1
+Mouse Left button down at: 482 0
+Mouse Left button up at: 482 0
+Mouse move at: 482 1
+Mouse move at: 482 2
+Mouse move at: 482 4
+Mouse move at: 482 7
+Mouse move at: 481 15
+Mouse move at: 478 32
+Mouse move at: 471 59
+Mouse move at: 463 99
+Mouse move at: 454 139
+Mouse move at: 450 184
+Mouse move at: 446 226
+Mouse move at: 444 271
+Mouse move at: 444 312
+Mouse move at: 447 354
+Mouse move at: 453 390
+Mouse move at: 460 420
+Mouse move at: 469 445
+Mouse move at: 476 460
+Mouse move at: 482 472
+Mouse move at: 488 480
+Mouse move at: 494 486
+Mouse move at: 500 492
+Mouse move at: 508 497
+Mouse move at: 517 502
+Mouse move at: 526 508
+Mouse move at: 537 513
+Mouse move at: 546 518
+Mouse move at: 556 523
+Mouse move at: 565 529
+Mouse move at: 573 535
+Mouse move at: 579 539
+Mouse move at: 583 542
+Mouse move at: 585 544
+Mouse move at: 587 544
+Mouse move at: 587 545
+Mouse move at: 587 546
+Mouse move at: 587 547
+Mouse move at: 587 547
+Mouse move at: 587 548
+Mouse move at: 587 549
+Mouse move at: 587 551
+Mouse move at: 587 552
+Mouse move at: 587 553
+Mouse move at: 587 554
+Mouse move at: 587 555
+Mouse move at: 586 556
+Mouse move at: 586 556
+Mouse move at: 586 557
+Mouse move at: 586 558
+Mouse move at: 586 558
+Mouse move at: 586 559
+Mouse move at: 586 561
+Mouse move at: 586 563
+Mouse move at: 586 565
+Mouse move at: 586 565
+Mouse move at: 587 566
+Mouse move at: 587 567
+Mouse move at: 587 567
+Mouse move at: 588 567
+Mouse move at: 588 567
+Mouse move at: 588 566
+Mouse move at: 588 566
+Mouse move at: 588 565
+Mouse move at: 588 564
+Mouse move at: 587 563
+Mouse move at: 585 562
+Mouse move at: 582 561
+Mouse move at: 581 560
+Mouse move at: 579 559
+Mouse move at: 578 558
+Mouse move at: 577 558
+Mouse move at: 577 558
+Mouse move at: 576 558
+Mouse move at: 576 557
+Mouse move at: 575 557
+Mouse move at: 575 556
+Mouse move at: 575 556
+Mouse move at: 574 556
+Mouse move at: 572 556
+Mouse move at: 571 556
+Mouse move at: 569 555
+Mouse move at: 566 555
+Mouse move at: 565 555
+Mouse move at: 564 555
+Mouse move at: 563 555
+Mouse move at: 563 555
+Mouse move at: 562 555
+Mouse move at: 561 555
+Mouse move at: 561 555
+Mouse Left button down at: 561 555
+Mouse Left button up at: 561 555
+Client unknown key pressed
+Client unknown key released
+Client RIGHT ARROW pressed
+Client RIGHT ARROW released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client RIGHT ARROW pressed
+Client RIGHT ARROW released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client RIGHT ARROW pressed
+Client RIGHT ARROW released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client unknown key pressed
+Client unknown key released
+Client unknown key pressed
+Client unknown key released
+Client RIGHT ARROW pressed
+Client RIGHT ARROW released
+Mouse move at: 559 554
+Mouse move at: 556 552
+Mouse move at: 549 549
+Mouse move at: 539 543
+Mouse move at: 527 538
+Mouse move at: 515 534
+Mouse move at: 502 528
+Mouse move at: 490 523
+Mouse move at: 481 519
+Mouse move at: 476 517
+Mouse move at: 473 515
+Mouse move at: 470 514
+Mouse move at: 469 513
+Mouse move at: 469 513
+Mouse move at: 468 513
+Mouse move at: 467 513
+Mouse move at: 467 513
+Mouse move at: 464 513
+Mouse move at: 461 516
+Mouse move at: 455 520
+Mouse move at: 446 525
+Mouse move at: 434 533
+Mouse move at: 421 541
+Mouse move at: 409 553
+Mouse move at: 398 561
+Mouse move at: 389 570
+Mouse move at: 380 577
+Mouse move at: 374 581
+Mouse move at: 370 586
+Mouse move at: 367 588
+Mouse move at: 366 589
+Mouse move at: 365 589
+Mouse move at: 365 590
+Mouse move at: 363 590
+Mouse move at: 359 590
+Mouse move at: 353 590
+Mouse move at: 346 590
+Mouse move at: 337 590
+Mouse move at: 330 589
+Mouse move at: 320 589
+Mouse move at: 312 587
+Mouse move at: 306 587
+Mouse move at: 301 587
+Mouse move at: 299 587
+Mouse move at: 296 587
+Mouse move at: 293 587
+Mouse move at: 292 587
+Mouse move at: 290 587
+Mouse move at: 288 588
+Mouse move at: 287 589
+Mouse move at: 287 589
+Mouse move at: 285 591
+Mouse move at: 284 592
+Mouse move at: 284 592
+Mouse move at: 283 593
+Mouse move at: 282 593
+Mouse move at: 282 594
+Mouse move at: 282 595
+Mouse move at: 282 598
+Mouse move at: 282 601
+Mouse move at: 282 603
+Mouse move at: 282 606
+Mouse move at: 282 608
+Mouse move at: 282 609
+Mouse move at: 282 611
+Mouse move at: 282 612
+Mouse move at: 282 612
+Mouse move at: 282 613
+Mouse move at: 282 614
+Mouse move at: 282 614
+Mouse move at: 282 615
+Mouse Left button down at: 282 615
+Mouse Left button up at: 282 615
+Mouse Left button down at: 282 615
+Client LEFT CONTROL pressed
+Mouse Left button up at: 282 615
+Client C pressed
+Client C released
+Client LEFT CONTROL released
+Mouse move at: 283 615
+Mouse move at: 288 613
+Mouse move at: 299 611
+Mouse move at: 315 606
+Mouse move at: 336 605
+Mouse move at: 368 603
+Mouse move at: 395 603
+Mouse move at: 416 603
+Mouse move at: 434 604
+Mouse move at: 449 606
+Mouse move at: 461 610
+Mouse move at: 473 613
+Mouse move at: 485 617
+Mouse move at: 496 622
+Mouse move at: 506 628
+Mouse move at: 506 628
+Mouse move at: 506 627
+Mouse move at: 506 626
+Mouse move at: 506 626
+Mouse move at: 506 624
+Mouse move at: 506 623
+Mouse move at: 511 618
+Mouse move at: 520 610
+Mouse move at: 537 596
+Mouse move at: 567 578
+Mouse move at: 597 560
+Mouse move at: 623 547
+Mouse move at: 642 538
+Mouse move at: 658 532
+Mouse move at: 668 530
+Mouse move at: 675 527
+Mouse move at: 678 526
+Mouse move at: 679 526
+Mouse move at: 681 526
+Mouse move at: 682 526
+Mouse move at: 682 526
+Mouse move at: 682 527
+Mouse move at: 682 528
+Mouse move at: 682 529
+Mouse move at: 682 530
+Mouse move at: 681 533
+Mouse move at: 679 536
+Mouse move at: 678 540
+Mouse move at: 676 544
+Mouse move at: 672 553
+Mouse move at: 667 562
+Mouse move at: 662 571
+Mouse move at: 656 580
+Mouse move at: 651 586
+Mouse move at: 647 591
+Mouse move at: 645 593
+Mouse move at: 643 595
+Mouse move at: 641 597
+Mouse move at: 639 598
+Mouse move at: 639 598
+Mouse move at: 638 598
+Mouse move at: 637 598
+Mouse move at: 636 598
+Mouse move at: 636 598
+Mouse move at: 635 598
+Mouse move at: 634 598
+Mouse move at: 634 598
+Mouse move at: 632 598
+Mouse move at: 631 598
+Mouse move at: 629 598
+Mouse move at: 628 598
+Mouse move at: 627 598
+Mouse move at: 626 598
+Mouse move at: 625 598
+Mouse move at: 625 598
+Mouse move at: 624 598
+Mouse move at: 623 598
+Mouse move at: 622 598
+Mouse move at: 622 598
+Mouse move at: 622 598
+Mouse move at: 621 598
+Mouse Left button down at: 621 598
+Mouse Left button up at: 621 598
+Client LEFT CONTROL pressed
+Client V pressed
+Client V released
+Client LEFT CONTROL released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client unknown key pressed
+Client unknown key released
+Client unknown key pressed
+Client unknown key released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client 3 pressed
+Client 3 released
+Client 3 pressed
+Client 3 released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client B pressed
+Client B released
+Client T pressed
+Client E pressed
+Client T released
+Client E released
+Client S pressed
+Client S released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client LEFT ARROW pressed
+Client LEFT ARROW released
+Client Y pressed
+Client Y released
+Client LEFT CONTROL pressed
+Client S pressed
+Client S released
+Client S pressed
+Client S released
+Client LEFT CONTROL released
+Client LEFT CONTROL pressed
+Client LEFT CONTROL released
+Mouse move at: 621 599
+Mouse move at: 621 599
+Mouse move at: 621 602
+Mouse move at: 622 610
+Mouse move at: 628 625
+Mouse move at: 642 651
+Mouse move at: 663 684
+Mouse move at: 690 716
+Mouse move at: 732 754
+Mouse move at: 784 793
+Mouse move at: 838 830
+Mouse move at: 889 864
+Mouse move at: 930 896
+Mouse move at: 965 925
+Mouse move at: 990 946
+Mouse move at: 1004 961
+Mouse move at: 1014 974
+Mouse move at: 1020 983
+Mouse move at: 1024 990
+Mouse move at: 1026 994
+Mouse move at: 1027 996
+Mouse move at: 1027 998
+Mouse move at: 1027 999
+Mouse move at: 1027 1000
+Mouse move at: 1027 1001
+Mouse move at: 1027 1001
+Mouse move at: 1027 1002
+Mouse move at: 1025 1003
+Mouse move at: 1024 1003
+Mouse move at: 1023 1004
+Mouse move at: 1021 1005
+Mouse move at: 1019 1006
+Mouse move at: 1017 1008
+Mouse move at: 1015 1010
+Mouse move at: 1012 1015
+Mouse move at: 1008 1021
+Mouse move at: 1004 1030
+Mouse move at: 1001 1037
+Mouse move at: 997 1046
+Mouse move at: 993 1052
+Mouse move at: 991 1059
+Mouse move at: 989 1064
+Mouse move at: 987 1066
+Mouse move at: 986 1067
+Mouse move at: 985 1069
+Mouse move at: 983 1070
+Mouse move at: 979 1072
+Mouse move at: 975 1074
+Mouse move at: 969 1076
+Mouse move at: 964 1077
+Mouse move at: 958 1079
+Mouse move at: 951 1082
+Mouse move at: 947 1080
+Mouse move at: 944 1079
+Mouse move at: 941 1080
+Mouse move at: 941 1079
+Mouse move at: 940 1080
+Mouse move at: 939 1079
+Mouse Left button down at: 939 1079
+Mouse Left button up at: 939 1079
+Mouse move at: 939 1077
+Mouse move at: 949 1049
+Mouse move at: 987 960
+Mouse move at: 1035 851
+Mouse move at: 1089 725
+Mouse move at: 1149 605
+Mouse move at: 1186 554
+Mouse move at: 1239 482
+Mouse move at: 1295 401
+Mouse move at: 1333 341
+Mouse move at: 1355 301
+Mouse move at: 1363 282
+Mouse move at: 1367 274
+Mouse move at: 1368 270
+Mouse move at: 1368 268
+Mouse move at: 1368 267
+Mouse move at: 1369 267
+Mouse move at: 1378 261
+Mouse move at: 1400 242
+Mouse move at: 1438 213
+Mouse move at: 1476 184
+Mouse move at: 1510 161
+Mouse move at: 1537 143
+Mouse move at: 1556 134
+Mouse move at: 1567 128
+Mouse move at: 1576 124
+Mouse move at: 1579 123
+Mouse move at: 1582 123
+Mouse move at: 1584 123
+Mouse move at: 1584 123
+Mouse move at: 1585 123
+Mouse move at: 1586 123
+Mouse move at: 1587 123
+Mouse move at: 1590 123
+Mouse move at: 1594 123
+Mouse move at: 1596 123
+Mouse move at: 1600 122
+Mouse move at: 1604 122
+Mouse move at: 1608 121
+Mouse move at: 1612 118
+Mouse move at: 1615 118
+Mouse move at: 1618 118
+Mouse move at: 1619 117
+Mouse move at: 1621 116
+Mouse move at: 1622 116
+Mouse move at: 1622 115
+Mouse move at: 1623 115
+Mouse Left button down at: 1623 115
+Mouse Left button up at: 1623 115
+Mouse move at: 722 961
+Mouse move at: 717 961
+Mouse move at: 713 961
+Mouse move at: 711 961
+Mouse move at: 708 962
+Mouse move at: 707 962
+Mouse move at: 707 962
+Mouse move at: 706 962
+Mouse move at: 706 962
+Mouse move at: 706 963
+Mouse move at: 706 963
+Mouse move at: 706 963
+Mouse move at: 707 963
+Mouse move at: 708 963
+Mouse move at: 708 965
+Mouse move at: 708 965
+Mouse move at: 710 968
+Mouse move at: 711 971
+Mouse move at: 713 975
+Mouse move at: 714 980
+Mouse move at: 718 987
+Mouse move at: 722 998
+Mouse move at: 727 1010
+Mouse move at: 732 1022
+Mouse move at: 739 1033
+Mouse move at: 746 1045
+Mouse move at: 753 1055
+Mouse move at: 759 1062
+Mouse move at: 762 1068
+Mouse move at: 765 1071
+Mouse move at: 767 1073
+Mouse move at: 769 1074
+Mouse move at: 770 1075
+Mouse move at: 770 1076
+Mouse move at: 772 1077
+Mouse move at: 773 1077
+Mouse move at: 774 1078
+Mouse move at: 776 1079
+Mouse move at: 778 1080
+Mouse move at: 779 1080
+Mouse move at: 780 1079
+Mouse move at: 781 1079
+Mouse move at: 781 1079
+Mouse move at: 782 1080
+Mouse Left button down at: 782 1079
+Mouse Left button up at: 782 1079
+Mouse move at: 782 1079
+Mouse move at: 782 1078
+Mouse move at: 781 1077
+Mouse move at: 780 1076
+Mouse move at: 778 1074
+Mouse move at: 776 1071
+Mouse move at: 771 1066
+Mouse move at: 762 1060
+Mouse move at: 749 1052
+Mouse move at: 735 1043
+Mouse move at: 723 1035
+Mouse move at: 712 1028
+Mouse move at: 706 1023
+Mouse move at: 702 1021
+Mouse move at: 699 1020
+Mouse move at: 698 1019
+Mouse move at: 697 1019
+Mouse move at: 697 1018
+Mouse move at: 696 1018
+Mouse move at: 696 1018
+Mouse move at: 695 1017
+Mouse move at: 692 1016
+Mouse move at: 691 1016
+Mouse move at: 689 1015
+Mouse move at: 687 1015
+Mouse move at: 686 1014
+Mouse move at: 685 1013
+Mouse move at: 684 1013
+Mouse move at: 684 1012
+Mouse move at: 684 1012
+Mouse Left button down at: 684 1012
+Mouse move at: 684 1012
+Mouse Left button up at: 684 1012
+Mouse move at: 684 1012
+Mouse move at: 684 1012
+Mouse move at: 685 1012
+Mouse move at: 685 1011
+Mouse move at: 685 1010
+Mouse move at: 686 1010
+Mouse move at: 686 1010
+Mouse move at: 687 1008
+Mouse move at: 688 1004
+Mouse move at: 696 988
+Mouse move at: 721 948
+Mouse move at: 753 895
+Mouse move at: 789 844
+Mouse move at: 826 789
+Mouse move at: 865 738
+Mouse move at: 901 690
+Mouse move at: 934 648
+Mouse move at: 958 620
+Mouse move at: 975 596
+Mouse move at: 986 581
+Mouse move at: 996 569
+Mouse move at: 1001 561
+Mouse move at: 1004 558
+Mouse move at: 1005 557
+Mouse move at: 1005 556
+Mouse move at: 1005 553
+Mouse move at: 1004 545
+Mouse move at: 991 510
+Mouse move at: 965 441
+Mouse move at: 940 366
+Mouse move at: 916 292
+Mouse move at: 897 234
+Mouse move at: 884 193
+Mouse move at: 876 171
+Mouse move at: 871 161
+Mouse move at: 867 153
+Mouse move at: 865 149
+Mouse move at: 863 147
+Mouse move at: 862 147
+Mouse move at: 862 147
+Mouse move at: 861 147
+Mouse move at: 861 147
+Mouse move at: 861 147
+Mouse move at: 861 148
+Mouse move at: 861 149
+Mouse move at: 861 149
+Mouse move at: 860 149
+Mouse move at: 860 150
+Mouse Left button down at: 860 150
+Mouse move at: 860 151
+Mouse move at: 860 151
+Mouse move at: 861 152
+Mouse move at: 867 152
+Mouse move at: 884 152
+Mouse move at: 911 152
+Mouse move at: 969 152
+Mouse move at: 1026 152
+Mouse move at: 1085 151
+Mouse move at: 1139 151
+Mouse move at: 1183 151
+Mouse move at: 1217 151
+Mouse move at: 1244 151
+Mouse move at: 1259 151
+Mouse move at: 1268 151
+Mouse move at: 1272 151
+Mouse move at: 1274 152
+Mouse move at: 1275 153
+Mouse move at: 1276 153
+Mouse move at: 1276 153
+Mouse move at: 1276 154
+Mouse move at: 1276 154
+Mouse move at: 1277 155
+Mouse move at: 1278 155
+Mouse move at: 1279 155
+Mouse move at: 1280 156
+Mouse move at: 1282 156
+Mouse move at: 1282 156
+Mouse move at: 1284 156
+Mouse move at: 1285 157
+Mouse move at: 1285 157
+Mouse move at: 1286 157
+Mouse Left button up at: 1286 157
+Mouse move at: 1287 158
+Client LEFT SHIFT pressed
+Client C pressed
+Client C released
+Client L pressed
+Client L released
+Client O pressed
+Client O released
+Client S pressed
+Client S released
+Client E pressed
+Client E released
+Client LEFT SHIFT released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client LEFT SHIFT pressed
+Client 0 pressed
+Client LEFT SHIFT released
+Client 0 released
+Client ENTER pressed
+Client ENTER released
+Mouse move at: 1285 158
+Mouse move at: 1280 159
+Mouse move at: 1273 159
+Mouse move at: 1267 159
+Mouse move at: 1255 156
+Mouse move at: 1238 142
+Mouse move at: 1210 110
+Mouse move at: 1165 30
+Mouse move at: 1129 -66
+Mouse move at: 1102 -94
+Mouse move at: 1089 -80
+Mouse move at: 1079 -66
+Mouse move at: 1073 -56
+Mouse move at: 1068 -38
+Mouse move at: 1067 -22
+Mouse move at: 1066 -15
+Mouse move at: 1066 -10
+Mouse move at: 1066 -5
+Mouse move at: 1066 -2
+Mouse move at: 1066 0
+Mouse move at: 1066 -1
+Mouse move at: 1062 -1
+Mouse move at: 1053 -2
+Mouse move at: 1037 -5
+Mouse move at: 1005 -5
+Mouse move at: 963 -4
+Mouse move at: 914 -9
+Mouse move at: 864 -9
+Mouse move at: 815 -7
+Mouse move at: 765 -9
+Mouse move at: 719 -9
+Mouse move at: 682 -8
+Mouse move at: 649 -6
+Mouse move at: 623 -5
+Mouse move at: 600 -3
+Mouse move at: 583 -3
+Mouse move at: 567 -1
+Mouse move at: 550 -2
+Mouse move at: 535 -1
+Mouse move at: 517 0
+Mouse move at: 499 0
+Mouse move at: 482 0
+Mouse move at: 467 0
+Mouse move at: 454 0
+Mouse move at: 442 2
+Mouse move at: 432 3
+Mouse move at: 425 4
+Mouse move at: 418 5
+Mouse move at: 411 8
+Mouse move at: 405 11
+Mouse move at: 397 15
+Mouse move at: 388 21
+Mouse move at: 379 28
+Mouse move at: 368 36
+Mouse move at: 357 44
+Mouse move at: 347 52
+Mouse move at: 336 60
+Mouse move at: 328 67
+Mouse move at: 322 70
+Mouse move at: 319 72
+Mouse move at: 319 73
+Mouse move at: 318 74
+Mouse move at: 318 74
+Mouse move at: 318 75
+Mouse move at: 318 77
+Mouse move at: 317 78
+Mouse move at: 316 80
+Mouse move at: 316 82
+Mouse move at: 315 83
+Mouse move at: 314 84
+Mouse move at: 313 86
+Mouse move at: 311 87
+Mouse move at: 308 89
+Mouse move at: 304 91
+Mouse move at: 301 91
+Mouse move at: 298 92
+Mouse move at: 296 93
+Mouse move at: 294 93
+Mouse move at: 294 93
+Mouse move at: 294 94
+Mouse move at: 293 94
+Mouse move at: 293 95
+Mouse move at: 293 95
+Mouse move at: 293 95
+Mouse move at: 293 96
+Mouse move at: 294 96
+Mouse move at: 296 97
+Mouse move at: 297 98
+Mouse move at: 300 99
+Mouse move at: 303 100
+Mouse move at: 308 102
+Mouse move at: 316 105
+Mouse move at: 324 108
+Mouse move at: 335 113
+Mouse move at: 346 117
+Mouse move at: 358 121
+Mouse move at: 367 125
+Mouse move at: 374 127
+Mouse move at: 378 129
+Mouse move at: 381 130
+Mouse move at: 382 131
+Mouse move at: 383 131
+Mouse move at: 384 132
+Mouse move at: 384 132
+Mouse move at: 385 132
+Mouse move at: 385 132
+Mouse move at: 385 131
+Mouse move at: 385 131
+Mouse move at: 385 130
+Mouse move at: 385 129
+Mouse move at: 385 129
+Mouse move at: 385 128
+Mouse move at: 385 127
+Mouse move at: 385 127
+Mouse move at: 385 126
+Mouse move at: 385 125
+Mouse move at: 385 124
+Mouse move at: 385 124
+Mouse move at: 385 124
+Mouse move at: 385 123
+Mouse move at: 385 122
+Mouse move at: 385 122
+Mouse Left button down at: 385 122
+Mouse Left button up at: 385 122
+Mouse move at: 384 122
+Mouse move at: 383 122
+Mouse move at: 383 122
+Mouse move at: 382 122
+Mouse move at: 381 122
+Mouse move at: 380 122
+Mouse move at: 378 123
+Mouse move at: 374 124
+Mouse move at: 367 125
+Mouse move at: 355 128
+Mouse move at: 342 129
+Mouse move at: 327 130
+Mouse move at: 312 130
+Mouse move at: 295 130
+Mouse move at: 285 130
+Mouse move at: 274 130
+Mouse move at: 267 130
+Mouse move at: 263 130
+Mouse move at: 260 130
+Mouse move at: 259 130
+Mouse move at: 258 130
+Mouse move at: 257 130
+Mouse move at: 257 130
+Mouse move at: 256 130
+Mouse move at: 255 129
+Mouse move at: 254 129
+Mouse move at: 254 129
+Mouse move at: 253 128
+Mouse move at: 252 128
+Mouse move at: 252 128
+Mouse move at: 252 128
+Mouse move at: 251 128
+Mouse move at: 249 128
+Mouse move at: 248 128
+Mouse move at: 246 128
+Mouse move at: 243 128
+Mouse move at: 241 128
+Mouse move at: 237 128
+Mouse move at: 234 129
+Mouse move at: 230 129
+Mouse move at: 228 129
+Mouse move at: 225 129
+Mouse move at: 222 129
+Mouse move at: 220 128
+Mouse move at: 217 127
+Mouse move at: 215 126
+Mouse move at: 213 125
+Mouse move at: 213 123
+Mouse move at: 212 122
+Mouse move at: 211 122
+Mouse move at: 210 122
+Mouse move at: 210 121
+Mouse move at: 210 120
+Mouse move at: 210 120
+Mouse move at: 210 119
+Mouse move at: 210 118
+Mouse move at: 210 118
+Mouse move at: 210 117
+Mouse Left button down at: 210 117
+Mouse move at: 210 116
+Mouse Left button up at: 210 116
+Mouse move at: 210 116
+Mouse move at: 211 117
+Mouse move at: 211 118
+Mouse move at: 212 120
+Mouse move at: 214 122
+Mouse move at: 215 124
+Mouse move at: 219 130
+Mouse move at: 222 136
+Mouse move at: 227 143
+Mouse move at: 232 154
+Mouse move at: 239 163
+Mouse move at: 244 173
+Mouse move at: 249 181
+Mouse move at: 255 190
+Mouse move at: 259 196
+Mouse move at: 264 202
+Mouse move at: 268 208
+Mouse move at: 273 215
+Mouse move at: 277 221
+Mouse move at: 278 221
+Mouse move at: 281 218
+Mouse move at: 287 212
+Mouse move at: 302 198
+Mouse move at: 333 178
+Mouse move at: 367 155
+Mouse move at: 399 138
+Mouse move at: 428 125
+Mouse move at: 449 118
+Mouse move at: 464 114
+Mouse move at: 476 113
+Mouse move at: 483 113
+Mouse move at: 487 113
+Mouse move at: 489 113
+Mouse move at: 490 113
+Mouse move at: 491 113
+Mouse move at: 491 113
+Mouse move at: 489 115
+Mouse move at: 480 119
+Mouse move at: 465 125
+Mouse move at: 443 131
+Mouse move at: 421 134
+Mouse move at: 395 137
+Mouse move at: 377 137
+Mouse move at: 360 137
+Mouse move at: 347 137
+Mouse move at: 335 136
+Mouse move at: 328 135
+Mouse move at: 322 132
+Mouse move at: 320 131
+Mouse move at: 318 131
+Mouse move at: 317 130
+Mouse move at: 317 130
+Mouse move at: 317 129
+Mouse move at: 316 129
+Mouse move at: 316 128
+Mouse move at: 316 128
+Mouse move at: 316 127
+Mouse move at: 316 126
+Mouse move at: 316 126
+Mouse move at: 317 126
+Mouse move at: 318 125
+Mouse move at: 318 124
+Mouse move at: 320 123
+Mouse move at: 321 122
+Mouse move at: 324 121
+Mouse move at: 325 119
+Mouse move at: 327 118
+Mouse move at: 328 116
+Mouse move at: 330 116
+Mouse move at: 330 115
+Mouse move at: 331 115
+Mouse move at: 332 115
+Mouse move at: 332 115
+Mouse Left button down at: 332 115
+Mouse Left button up at: 332 115
+Mouse move at: 332 115
+Mouse move at: 333 116
+Mouse move at: 334 119
+Mouse move at: 336 124
+Mouse move at: 339 133
+Mouse move at: 344 147
+Mouse move at: 350 164
+Mouse move at: 358 183
+Mouse move at: 366 204
+Mouse move at: 376 223
+Mouse move at: 383 242
+Mouse move at: 393 261
+Mouse move at: 405 284
+Mouse move at: 415 306
+Mouse move at: 426 328
+Mouse move at: 439 354
+Mouse move at: 448 382
+Mouse move at: 459 407
+Mouse move at: 466 434
+Mouse move at: 472 455
+Mouse move at: 481 480
+Mouse move at: 486 503
+Mouse move at: 508 476
+Mouse move at: 529 451
+Mouse move at: 549 431
+Mouse move at: 568 414
+Mouse move at: 582 402
+Mouse move at: 595 394
+Mouse move at: 605 387
+Mouse move at: 614 384
+Mouse move at: 622 381
+Mouse move at: 627 380
+Mouse move at: 632 379
+Mouse move at: 636 379
+Mouse move at: 639 379
+Mouse move at: 642 379
+Mouse move at: 645 379
+Mouse move at: 647 379
+Mouse move at: 650 379
+Mouse move at: 650 379
+Mouse move at: 652 379
+Mouse move at: 653 379
+Mouse move at: 653 379
+Mouse move at: 653 380
+Mouse move at: 654 380
+Mouse move at: 655 380
+Mouse move at: 656 380
+Mouse move at: 658 380
+Mouse move at: 658 380
+Mouse move at: 660 380
+Mouse move at: 661 380
+Mouse move at: 661 380
+Mouse move at: 662 380
+Mouse move at: 662 380
+Mouse move at: 663 382
+Mouse move at: 663 384
+Mouse move at: 663 387
+Mouse move at: 663 389
+Mouse move at: 663 391
+Mouse move at: 663 393
+Mouse move at: 663 395
+Mouse move at: 662 399
+Mouse move at: 660 403
+Mouse move at: 656 410
+Mouse move at: 653 416
+Mouse move at: 649 423
+Mouse move at: 647 427
+Mouse move at: 645 430
+Mouse move at: 643 432
+Mouse move at: 642 434
+Mouse move at: 642 434
+Mouse move at: 641 434
+Mouse move at: 641 435
+Mouse move at: 640 435
+Mouse move at: 640 435
+Mouse move at: 639 435
+Mouse move at: 639 435
+Mouse move at: 639 435
+Mouse move at: 636 434
+Mouse move at: 631 433
+Mouse move at: 621 430
+Mouse move at: 601 424
+Mouse move at: 568 416
+Mouse move at: 527 406
+Mouse move at: 479 390
+Mouse move at: 435 376
+Mouse move at: 394 364
+Mouse move at: 357 353
+Mouse move at: 329 344
+Mouse move at: 311 338
+Mouse move at: 299 333
+Mouse move at: 294 330
+Mouse move at: 291 328
+Mouse move at: 290 328
+Mouse move at: 289 328
+Mouse move at: 289 327
+Mouse move at: 289 326
+Mouse move at: 289 326
+Mouse move at: 289 325
+Mouse move at: 289 324
+Mouse move at: 289 323
+Mouse move at: 289 323
+Mouse move at: 290 323
+Mouse move at: 290 322
+Mouse move at: 290 321
+Mouse move at: 290 320
+Mouse move at: 290 319
+Mouse move at: 290 318
+Mouse move at: 289 316
+Mouse move at: 288 314
+Mouse move at: 287 312
+Mouse move at: 285 311
+Mouse move at: 285 310
+Mouse move at: 285 309
+Mouse move at: 284 309
+Mouse move at: 284 309
+Mouse Left button down at: 284 309
+Mouse Left button up at: 284 309
+Mouse Left button down at: 284 309
+Mouse Left button up at: 284 309
+Client LEFT CONTROL pressed
+Client LEFT CONTROL released
+Mouse move at: 284 308
+Mouse move at: 284 307
+Mouse move at: 284 306
+Mouse move at: 284 306
+Mouse move at: 284 305
+Mouse move at: 284 304
+Mouse move at: 284 304
+Mouse move at: 284 303
+Mouse move at: 284 302
+Mouse move at: 284 301
+Mouse Left button down at: 284 301
+Mouse Left button up at: 284 301
+Mouse Left button down at: 284 301
+Mouse Left button up at: 284 301
+Client LEFT CONTROL pressed
+Client C pressed
+Client C released
+Client LEFT CONTROL released
+Mouse move at: 284 301
+Mouse move at: 284 303
+Mouse move at: 288 307
+Mouse move at: 294 312
+Mouse move at: 303 320
+Mouse move at: 314 329
+Mouse move at: 327 338
+Mouse move at: 339 346
+Mouse move at: 350 354
+Mouse move at: 362 361
+Mouse move at: 373 369
+Mouse move at: 385 376
+Mouse move at: 398 383
+Mouse move at: 412 391
+Mouse move at: 426 398
+Mouse move at: 439 405
+Mouse move at: 458 414
+Mouse move at: 471 421
+Mouse move at: 485 426
+Mouse move at: 496 430
+Mouse move at: 504 433
+Mouse move at: 512 435
+Mouse move at: 517 436
+Mouse move at: 521 437
+Mouse move at: 524 437
+Mouse move at: 527 437
+Mouse move at: 530 438
+Mouse move at: 533 438
+Mouse move at: 535 438
+Mouse move at: 537 438
+Mouse move at: 539 438
+Mouse move at: 540 438
+Mouse move at: 541 438
+Mouse move at: 543 438
+Mouse move at: 543 438
+Mouse move at: 545 438
+Mouse move at: 547 438
+Mouse move at: 550 438
+Mouse move at: 554 438
+Mouse move at: 558 438
+Mouse move at: 563 438
+Mouse move at: 566 438
+Mouse move at: 570 438
+Mouse move at: 574 438
+Mouse move at: 576 438
+Mouse move at: 580 439
+Mouse move at: 583 439
+Mouse move at: 585 439
+Mouse move at: 587 440
+Mouse move at: 590 440
+Mouse move at: 593 440
+Mouse move at: 595 441
+Mouse move at: 598 441
+Mouse move at: 601 441
+Mouse move at: 603 441
+Mouse move at: 606 441
+Mouse move at: 610 441
+Mouse move at: 614 441
+Mouse move at: 617 441
+Mouse move at: 621 441
+Mouse move at: 624 441
+Mouse move at: 626 440
+Mouse move at: 628 440
+Mouse move at: 629 439
+Mouse move at: 629 439
+Mouse move at: 630 439
+Mouse move at: 630 439
+Mouse move at: 631 438
+Mouse move at: 631 437
+Mouse move at: 631 437
+Mouse move at: 631 436
+Mouse move at: 631 435
+Mouse move at: 631 434
+Mouse move at: 631 432
+Mouse move at: 631 430
+Mouse move at: 631 429
+Mouse move at: 631 428
+Mouse move at: 631 427
+Mouse move at: 632 427
+Mouse move at: 632 426
+Mouse move at: 632 425
+Mouse move at: 632 425
+Mouse Left button down at: 632 425
+Mouse Left button up at: 632 425
+Client ENTER pressed
+Client LEFT CONTROL pressed
+Client ENTER released
+Client V pressed
+Client V released
+Client LEFT CONTROL released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Client unknown key pressed
+Client unknown key released
+Client SPACEBAR pressed
+Client SPACEBAR released
+Mouse move at: 630 425
+Mouse move at: 625 425
+Mouse move at: 618 425
+Mouse move at: 610 425
+Mouse move at: 598 423
+Mouse move at: 583 422
+Mouse move at: 570 422
+Mouse move at: 557 421
+Mouse move at: 545 421
+Mouse move at: 536 419
+Mouse move at: 529 419
+Mouse move at: 523 419
+Mouse move at: 518 419
+Mouse move at: 512 419
+Mouse move at: 507 419
+Mouse move at: 503 419
+Mouse move at: 500 419
+Mouse move at: 496 419
+Mouse move at: 493 419
+Mouse move at: 490 419
+Mouse move at: 487 418
+Mouse move at: 483 418
+Mouse move at: 479 418
+Mouse move at: 476 418
+Mouse move at: 473 418
+Mouse move at: 470 418
+Mouse move at: 468 418
+Mouse move at: 466 418
+Mouse move at: 465 418
+Mouse move at: 464 418
+Mouse move at: 463 418
+Mouse move at: 462 418
+Mouse move at: 462 418
+Mouse move at: 462 418
+Mouse move at: 463 418
+Mouse move at: 464 418
+Mouse move at: 466 418
+Mouse move at: 469 418
+Mouse move at: 471 418
+Mouse move at: 474 418
+Mouse move at: 477 418
+Mouse move at: 479 419
+Mouse move at: 482 420
+Mouse move at: 485 422
+Mouse move at: 487 423
+Mouse move at: 487 424
+Mouse move at: 488 424
+Mouse move at: 489 424
+Mouse move at: 490 424
+Mouse move at: 490 425
+Mouse move at: 490 425
+Mouse move at: 490 426
+Mouse move at: 490 426
+Mouse move at: 490 426
+Mouse move at: 489 426
+Mouse move at: 488 426
+Mouse move at: 488 426
+Mouse move at: 487 426
+Mouse move at: 486 426
+Mouse move at: 486 426
+Mouse move at: 485 426
+Mouse move at: 484 426
+Mouse move at: 483 426
+Mouse move at: 483 426
+Mouse move at: 483 426
+Mouse move at: 482 426
+Mouse move at: 481 426
+Mouse Left button down at: 481 426
+Mouse move at: 481 426
+Mouse move at: 482 426
+Mouse move at: 483 426
+Mouse move at: 486 426
+Mouse move at: 489 426
+Mouse move at: 494 426
+Mouse move at: 502 426
+Mouse move at: 514 424
+Mouse move at: 527 424
+Mouse move at: 541 423
+Mouse move at: 554 420
+Mouse move at: 564 420
+Mouse move at: 571 419
+Mouse move at: 576 419
+Mouse move at: 580 418
+Mouse move at: 584 418
+Mouse move at: 587 418
+Mouse move at: 588 418
+Mouse move at: 589 418
+Mouse move at: 590 418
+Mouse move at: 591 418
+Mouse move at: 592 418
+Mouse move at: 592 418
+Mouse move at: 593 418
+Mouse move at: 594 418
+Mouse move at: 595 418
+Mouse move at: 595 418
+Mouse move at: 596 418
+Mouse move at: 597 418
+Mouse move at: 597 418
+Mouse move at: 598 418
+Mouse move at: 599 418
+Mouse move at: 600 418
+Mouse Left button up at: 600 418
+Client LEFT CONTROL pressed
+Client C pressed
+Client C released
+Client LEFT CONTROL released
+Mouse move at: 600 418
+Mouse move at: 599 418
+Mouse move at: 598 418
+Mouse move at: 596 419
+Mouse move at: 593 421
+Mouse move at: 590 423
+Mouse move at: 585 426
+Mouse move at: 577 431
+Mouse move at: 570 436
+Mouse move at: 559 443
+Mouse move at: 550 449
+Mouse move at: 542 454
+Mouse move at: 538 457
+Mouse move at: 534 460
+Mouse move at: 532 460
+Mouse move at: 531 461
+Mouse move at: 531 462
+Mouse move at: 530 462
+Mouse move at: 530 463
+Mouse move at: 530 463
+Mouse move at: 530 462
+Mouse move at: 530 461
+Mouse move at: 530 459
+Mouse move at: 530 457
+Mouse move at: 530 456
+Mouse move at: 531 454
+Mouse move at: 531 452
+Mouse move at: 531 452
+Mouse move at: 531 451
+Mouse move at: 531 450
+Mouse move at: 531 449
+Mouse move at: 531 448
+Mouse move at: 531 447
+Mouse move at: 531 447
+Mouse move at: 531 446
+Mouse Left button down at: 531 446
+Mouse Left button up at: 531 446
+Client LEFT CONTROL pressed
+Client V pressed
+Client V released
+Client S pressed
+Client S released
+Client LEFT CONTROL released
+Client unknown key pressed
+Client LEFT CONTROL pressed
+Client unknown key released
+Client S pressed
+Client S released
+Client LEFT CONTROL released
+Mouse move at: 541 469
+Mouse move at: 547 489
+Mouse move at: 551 503
+Mouse move at: 553 510
+Mouse move at: 554 514
+Mouse move at: 554 517
+Mouse move at: 554 520
+Mouse move at: 554 522
+Mouse move at: 554 523
+Mouse move at: 554 524
+Mouse move at: 554 527
+Mouse move at: 554 532
+Mouse move at: 554 540
+Mouse move at: 557 559
+Mouse move at: 564 589
+Mouse move at: 574 627
+Mouse move at: 587 664
+Mouse move at: 601 697
+Mouse move at: 616 732
+Mouse move at: 629 761
+Mouse move at: 642 787
+Mouse move at: 652 809
+Mouse move at: 662 828
+Mouse move at: 667 842
+Mouse move at: 673 852
+Mouse move at: 676 860
+Mouse move at: 678 864
+Mouse move at: 679 867
+Mouse move at: 680 868
+Mouse move at: 680 870
+Mouse move at: 680 871
+Mouse move at: 680 871
+Mouse move at: 680 872
+Mouse move at: 680 874
+Mouse move at: 680 877
+Mouse move at: 680 882
+Mouse move at: 680 889
+Mouse move at: 680 896
+Mouse move at: 680 903
+Mouse move at: 679 912
+Mouse move at: 679 918
+Mouse move at: 679 925
+Mouse move at: 679 930
+Mouse move at: 679 936
+Mouse move at: 680 941
+Mouse move at: 682 945
+Mouse move at: 688 946
+Mouse move at: 703 950
+Mouse move at: 737 959
+Mouse move at: 791 976
+Mouse move at: 846 995
+Mouse move at: 895 1014
+Mouse move at: 932 1026
+Mouse move at: 961 1037
+Mouse move at: 976 1044
+Mouse move at: 987 1048
+Mouse move at: 991 1050
+Mouse move at: 994 1051
+Mouse move at: 994 1052
+Mouse move at: 994 1053
+Mouse move at: 994 1054
+Mouse move at: 994 1054
+Mouse move at: 994 1055
+Mouse move at: 994 1056
+Mouse move at: 994 1056
+Mouse move at: 994 1057
+Mouse move at: 994 1058
+Mouse move at: 994 1058
+Mouse move at: 994 1059
+Mouse move at: 993 1059
+Mouse move at: 992 1060
+Mouse move at: 992 1061
+Mouse move at: 989 1063
+Mouse move at: 985 1068
+Mouse move at: 976 1074
+Mouse move at: 965 1082
+Mouse move at: 952 1088
+Mouse move at: 938 1086
+Mouse move at: 923 1084
+Mouse move at: 906 1081
+Mouse move at: 893 1079
+Mouse move at: 883 1079
+Mouse move at: 876 1079
+Mouse move at: 871 1078
+Mouse move at: 869 1078
+Mouse move at: 867 1076
+Mouse move at: 867 1075
+Mouse move at: 867 1074
+Mouse move at: 867 1074
+Mouse move at: 867 1073
+Mouse move at: 867 1072
+Mouse move at: 867 1072
+Mouse move at: 867 1071
+Mouse move at: 867 1070
+Mouse move at: 868 1069
+Mouse move at: 869 1069
+Mouse move at: 869 1068
+Mouse move at: 870 1067
+Mouse move at: 871 1067
+Mouse move at: 871 1066
+Mouse move at: 872 1065
+Mouse move at: 873 1064
+Mouse move at: 873 1064
+Mouse move at: 874 1063
+Mouse move at: 874 1062
+Mouse move at: 875 1062
+Mouse move at: 875 1061
+Mouse move at: 876 1061
+Mouse move at: 876 1060
+Mouse move at: 876 1059
+Mouse move at: 876 1059
+Mouse move at: 877 1059
+Mouse move at: 877 1058
+Mouse Left button down at: 877 1058
+Mouse move at: 877 1057
+Mouse Left button up at: 877 1057
+Mouse move at: 877 1055
+Mouse move at: 877 1050
+Mouse move at: 877 1035
+Mouse move at: 875 1009
+Mouse move at: 866 966
+Mouse move at: 853 918
+Mouse move at: 837 874
+Mouse move at: 816 828
+Mouse move at: 796 786
+Mouse move at: 773 736
+Mouse move at: 750 690
+Mouse move at: 729 645
+Mouse move at: 710 608
+Mouse move at: 694 576
+Mouse move at: 683 551
+Mouse move at: 673 531
+Mouse move at: 668 518
+Mouse move at: 664 507
+Mouse move at: 662 501
+Mouse move at: 661 499
+Mouse move at: 661 498
+Client UP ARROW pressed
+Client UP ARROW released
+Client UP ARROW pressed
+Client UP ARROW released
+Client UP ARROW pressed
+Client UP ARROW released
+Client ENTER pressed

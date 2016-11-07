@@ -93,8 +93,6 @@ std::pair<unsigned char *, int>	SSLNetwork::decrypt(const unsigned char *data, u
 void SSLNetwork::sendData(const void *data, unsigned int len)
 {
 	auto result = this->encrypt(reinterpret_cast<const unsigned char *>(data), len);
-	if (result.second != 272)
-		std::cout << "to_send: " << result.second << std::endl;
 	if (send(this->m_socketFd, reinterpret_cast<const char *>(result.first), result.second, 0) != result.second)
 	{
 		std::cout << "Send error" << std::endl;
@@ -115,6 +113,7 @@ int SSLNetwork::receiveData(void *data, unsigned int len)
 
 	auto result = this->decrypt(reinterpret_cast<const unsigned char *>(data), len);
 	std::memcpy(data, result.first, result.second);
+	valReaded = result.second;
 	delete[] result.first;
 	return valReaded;
 }
