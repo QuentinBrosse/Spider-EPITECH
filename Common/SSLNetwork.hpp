@@ -10,6 +10,7 @@
 #include <openssl/evp.h>
 #include <openssl/err.h>
 
+#include <cstring>
 #include "TCPClient.hpp"
 
 class	SSLNetwork : public TCPClient
