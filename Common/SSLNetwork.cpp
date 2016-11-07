@@ -75,7 +75,7 @@ std::pair<unsigned char *, int>	SSLNetwork::decrypt(const unsigned char *data, u
 void SSLNetwork::sendData(const void *data, unsigned int len)
 {
 	auto result = this->encrypt(reinterpret_cast<const unsigned char *>(data), len);
-	if (send(this->m_socketFd, reinterpret_cast<const char *>(result.first), result.second, 0) != len)
+	if (send(this->m_socketFd, reinterpret_cast<const char *>(result.first), result.second, 0) != result.second)
 	{
 		std::cout << "Send error" << std::endl;
 		m_isConnected = false;
