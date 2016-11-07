@@ -113,7 +113,8 @@ int SSLNetwork::receiveData(void *data, unsigned int len)
 
 	auto result = this->decrypt(reinterpret_cast<const unsigned char *>(data), len);
 	std::memcpy(data, result.first, result.second);
-	valReaded = result.second;
+	if (valReaded > 0)
+		valReaded = result.second;
 	delete[] result.first;
 	return valReaded;
 }
