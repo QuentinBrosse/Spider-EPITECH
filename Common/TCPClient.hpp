@@ -29,15 +29,15 @@ public:
 	void blockSocket();
 	void connectToHost(const std::string&, const std::string &);
 	void setSocket(int);
-	void sendData(const void *, unsigned int);
-	int receiveData(void *, unsigned int);
+	virtual void sendData(const void *, unsigned int);
+	virtual int receiveData(void *, unsigned int);
 	bool isConnected() const;
 	void disconnectFromHost();
 	TCPClient& operator<<(const std::string &);
 	TCPClient& operator>>(std::string &);
 	int getSocketDescriptor();
 
-private:
+protected:
 	#ifdef __unix__
 	#elif defined(_WIN32) || defined(_WIN64) 
 		WSADATA	m_WSAData;

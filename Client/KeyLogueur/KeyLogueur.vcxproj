@@ -122,6 +122,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Common\SSLNetwork.cpp" />
     <ClCompile Include="..\..\Common\TCPClient.cpp" />
     <ClCompile Include="KeyLoger.cpp" />
     <ClCompile Include="main.cpp" />
@@ -129,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Common\Protocol.hpp" />
+    <ClInclude Include="..\..\Common\SSLNetwork.hpp" />
     <ClInclude Include="..\..\Common\TCPClient.hpp" />
     <ClInclude Include="KeyLoger.hpp" />
     <ClInclude Include="Parser.hpp" />

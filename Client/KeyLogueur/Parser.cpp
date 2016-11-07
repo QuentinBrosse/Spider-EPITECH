@@ -1,9 +1,10 @@
 #include <fstream>
 
-#include "TCPClient.hpp"
+#include "SSLNetwork.hpp"
 #include "Parser.hpp"
 
-Parser::Parser(TCPClient &client) :
+
+Parser::Parser(SSLNetwork &client) :
 	m_client(client)
 {
 }
