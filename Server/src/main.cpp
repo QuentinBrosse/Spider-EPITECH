@@ -41,7 +41,7 @@ int main(int argc, char **argv)
 	  if (server.checkSocket(*clientIt))
 	    {
 	      int read = 0;
-	      if ((read = ((*clientIt)->receiveData(buffer, cyphered_size))) == 0)
+	      if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_cmd)))) == 0)
 		{
 		  std::vector<SSLNetwork*> temp;
 		  std::cout << "Client disconected" << std::endl;
