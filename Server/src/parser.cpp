@@ -6,9 +6,9 @@
 #include "parser.hpp"
 #include "TCPServer.hpp"
 #include "Protocol.hpp"
-#include "TCPClient.hpp"
+#include "SSLNetwork.hpp"
 
-Parser::Parser(TCPServer &server, std::vector<TCPClient *> &clients) :
+Parser::Parser(TCPServer &server, std::vector<SSLNetwork *> &clients) :
   m_server(server), m_clientList(clients)
 {
 

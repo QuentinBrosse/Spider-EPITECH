@@ -2,6 +2,7 @@ CC		=	g++
 
 SRC		=	src/main.cpp \
 			../Common/TCPClient.cpp \
+			../Common/SSLNetwork.cpp \
 			src/TCPServer.cpp \
 			src/parser.cpp
 
@@ -9,7 +10,7 @@ OBJ		=	$(SRC:.cpp=.o)
 
 NAME		=	server
 
-CXXFLAGS	=	-I ./includes -I ../Common -std=c++11 -lcrypto
+CXXFLAGS	=	-I ./includes -I ../Common -L ../lib/linux -std=c++11 -lcrypto
 
 all: $(NAME)
 

@@ -20,7 +20,7 @@
 #define OS_Windows
 #endif
 
-#include "TCPClient.hpp"
+#include "SSLNetwork.hpp"
 
 class TCPServer
 {
@@ -32,9 +32,9 @@ public:
 	int getMasterSocket();
 	void waitForClientsActivity();
 	int incomingConnection();
-	TCPClient* getIncomingCLient();
-	void disconectClient(TCPClient *client);
-	bool checkSocket(TCPClient *client);
+	SSLNetwork* getIncomingCLient();
+	void disconectClient(SSLNetwork *client);
+	bool checkSocket(SSLNetwork *client);
 	const std::vector<int> getClientsSocketList();
 
 private:
@@ -48,7 +48,7 @@ private:
 	char m_ipAddr[INET_ADDRSTRLEN];
 	int m_masterSocket;
 	int m_maxSocket;
-	int	m_infoLen;
+	int m_infoLen;
 	int m_newSocket;
 	int *m_clientSockets;
 	int m_maxClients;

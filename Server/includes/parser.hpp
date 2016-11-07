@@ -4,13 +4,13 @@
 #include <vector>
 #include <fstream>
 
-class TCPClient;
+class SSLNetwork;
 class TCPServer;
 
 class Parser
 {
 public:
-Parser(TCPServer &, std::vector<TCPClient *> &);
+Parser(TCPServer &, std::vector<SSLNetwork *> &);
   ~Parser();
   void parseCommands();
   std::ofstream &getOutputStream();
@@ -19,7 +19,7 @@ Parser(TCPServer &, std::vector<TCPClient *> &);
 private:
 char m_cmdBuffer[255];
 TCPServer &m_server;
-std::vector<TCPClient *> &m_clientList;
+std::vector<SSLNetwork *> &m_clientList;
 std::ofstream m_output;
 };
 

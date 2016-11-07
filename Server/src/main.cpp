@@ -6,14 +6,14 @@
 #include <map>
 
 #include "TCPServer.hpp"
-#include "TCPClient.hpp"
+#include "SSLNetwork.hpp"
 #include "Protocol.hpp"
 #include "parser.hpp"
 
 int main(int argc, char **argv)
 {
   TCPServer server;
-  std::vector<TCPClient*> clientsList;
+  std::vector<SSLNetwork*> clientsList;
   char buffer[sizeof(t_cmd)];
   char cmd_buffer[255];
   Parser parser(server, clientsList);
@@ -33,7 +33,7 @@ int main(int argc, char **argv)
       server.waitForClientsActivity();
       if (server.incomingConnection())
 	{
-	  TCPClient* client = server.getIncomingCLient();
+	  SSLNetwork* client = server.getIncomingCLient();
 	  clientsList.push_back(client);
 	}
       for (auto clientIt = clientsList.begin(); clientIt != clientsList.end(); clientIt++)
@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 	      int read = 0;
 	      if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_cmd)))) == 0)
 		{
-		  std::vector<TCPClient*> temp;
+		  std::vector<SSLNetwork*> temp;
 		  std::cout << "Client disconected" << std::endl;
 		  server.disconectClient(*clientIt);
 		  (*clientIt)->disconnectFromHost();
