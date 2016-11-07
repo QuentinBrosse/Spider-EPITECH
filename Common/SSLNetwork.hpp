@@ -24,6 +24,7 @@ public:
   ~SSLNetwork();
   virtual void sendData(const void *, unsigned int);
   virtual int receiveData(void *, unsigned int);
+  int compute_cyphered_size(const unsigned char *data, unsigned int);
   std::string	getKey() const;
   void	setKey(const std::string &);
   std::string	getIV() const;

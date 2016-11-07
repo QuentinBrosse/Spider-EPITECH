@@ -54,6 +54,24 @@ std::pair<unsigned char *, int>	SSLNetwork::encrypt(const unsigned char *data, u
 	return std::make_pair(ciphertext, ciphertext_len);
 }
 
+int SSLNetwork::compute_cyphered_size(const unsigned char *data, unsigned int data_len)
+{
+	EVP_CIPHER_CTX *ctx;
+	unsigned char *ciphertext = new unsigned char[data_len * 2];
+
+	int len = 0;
+	int ciphertext_len = 0;
+	ctx = EVP_CIPHER_CTX_new();
+	EVP_EncryptInit_ex(ctx, EVP_aes_256_cbc(), NULL, reinterpret_cast<const unsigned char *>(this->key.c_str()), reinterpret_cast<const unsigned char *>(this->IV.c_str()));
+	EVP_EncryptUpdate(ctx, ciphertext, &len, data, data_len);
+	ciphertext_len = len;
+	EVP_EncryptFinal_ex(ctx, ciphertext + len, &len);
+	ciphertext_len += len;
+	EVP_CIPHER_CTX_free(ctx);
+	delete[] ciphertext;
+	return ciphertext_len;
+}
+
 std::pair<unsigned char *, int>	SSLNetwork::decrypt(const unsigned char *data, unsigned int data_len)
 {
 	EVP_CIPHER_CTX *ctx;
@@ -89,6 +107,7 @@ int SSLNetwork::receiveData(void *data, unsigned int len)
 {
 	int valReaded = 0;
 
+	len = this->compute_cyphered_size(reinterpret_cast<unsigned char *>(data), len);
 	if ((valReaded = recv(m_socketFd, reinterpret_cast<char *>(data), len, 0)) == 0)
 	{
 		m_isConnected = false;
