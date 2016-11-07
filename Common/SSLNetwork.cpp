@@ -42,8 +42,8 @@ std::pair<unsigned char *, int>	SSLNetwork::encrypt(const unsigned char *data, u
 	EVP_CIPHER_CTX *ctx;
 	unsigned char *ciphertext = new unsigned char[data_len];
 
-	int len;
-	int ciphertext_len;
+	int len = 0;
+	int ciphertext_len = 0;
 	ctx = EVP_CIPHER_CTX_new();
 	EVP_EncryptInit_ex(ctx, EVP_aes_256_cbc(), NULL, reinterpret_cast<const unsigned char *>(this->key.c_str()), reinterpret_cast<const unsigned char *>(this->IV.c_str()));
 	EVP_EncryptUpdate(ctx, ciphertext, &len, data, data_len);
@@ -51,6 +51,7 @@ std::pair<unsigned char *, int>	SSLNetwork::encrypt(const unsigned char *data, u
 	EVP_EncryptFinal_ex(ctx, ciphertext + len, &len);
 	ciphertext_len += len;
 	EVP_CIPHER_CTX_free(ctx);
+	std::cout << "Data len: " << ciphertext_len << std::endl;
 	return std::make_pair(ciphertext, ciphertext_len);
 }
 
