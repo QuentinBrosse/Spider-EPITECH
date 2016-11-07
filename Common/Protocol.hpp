@@ -63,4 +63,6 @@ typedef struct      s_cmd
 	unsigned char	data_len;
 }					t_cmd;
 
+const unsigned int cyphered_size = 272;
+
 #endif /* !_PROTOCOL_HPP_ */
