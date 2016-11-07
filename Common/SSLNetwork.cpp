@@ -1,6 +1,7 @@
 #include "SSLNetwork.hpp"
 
-SSLNetwork::SSLNetwork()
+SSLNetwork::SSLNetwork(bool useExistingSocket) :
+  TCPClient(useExistingSocket)
 {
 	ERR_load_crypto_strings();
 	OpenSSL_add_all_algorithms();

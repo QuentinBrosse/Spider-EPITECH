@@ -18,7 +18,7 @@ private:
   std::string	key;
   std::string   IV;
 public:
-  SSLNetwork();
+  SSLNetwork(bool = false);
   ~SSLNetwork();
   virtual void sendData(const void *, unsigned int);
   virtual int receiveData(void *, unsigned int);
