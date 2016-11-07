@@ -58,10 +58,11 @@ int main(int argc, char **argv)
 			  char data[buffer_size + 1];
 			  std::memcpy(data, command->buffer, buffer_size);
 			  data[command->data_len] = '\0';
-			  parser.getOutputStream() << data << std::endl;
+			  parser.getOutputStream() << data;
 			}
 		      if (command->cmd == commandType::DOWNLOAD_LOG_END)
 			{
+			  parser.getOutputStream() << std::endl;
 			  std::cout << "LOG DOWNLOAD COMPLETE" << std::endl;
 			}
 		      if (command->cmd == commandType::DISPLAY_LOG)
@@ -69,10 +70,11 @@ int main(int argc, char **argv)
 			  char data[buffer_size + 1];
 			  std::memcpy(data, command->buffer, buffer_size);
 			  data[command->data_len] = '\0';
-			  std::cout << data << std::endl;
+			  std::cout << data;
 			}
 		      if (command->cmd == commandType::DISPLAY_LOG_END)
 			{
+			  std::cout << std::endl;
 			  std::cout << "LOG DOWNLOAD COMPLETED" << std::endl;
 			}
 		    }
