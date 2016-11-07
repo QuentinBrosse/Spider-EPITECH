@@ -11,6 +11,7 @@
 #include <openssl/err.h>
 
 #include <cstring>
+#include "Protocol.hpp"
 #include "TCPClient.hpp"
 
 class	SSLNetwork : public TCPClient

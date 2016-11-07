@@ -80,6 +80,7 @@ void SSLNetwork::sendData(const void *data, unsigned int len)
 		std::cout << "Send error" << std::endl;
 		m_isConnected = false;
 	}
+	delete[] result.first;
 }
 
 int SSLNetwork::receiveData(void *data, unsigned int len)
@@ -93,5 +94,6 @@ int SSLNetwork::receiveData(void *data, unsigned int len)
 
 	auto result = this->decrypt(reinterpret_cast<const unsigned char *>(data), len);
 	std::memcpy(data, result.first, result.second);
+	delete[] result.first;
 	return valReaded;
 }
