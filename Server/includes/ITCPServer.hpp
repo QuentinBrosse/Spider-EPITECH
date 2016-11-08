@@ -8,16 +8,16 @@
 class ITCPServer
 {
 public:
-  virtual ~TCPServer() { };
+  virtual ~ITCPServer() { };
   virtual void listenClients(const std::string &, const std::string&, unsigned int) = 0;
   virtual bool isListening() const = 0;
   virtual int getMasterSocket() = 0;
   virtual void waitForClientsActivity() = 0;
   virtual int incomingConnection() = 0;
   virtual void fdSetChk(int &m_SeedDescription, fd_set& m_readFds) = 0;
-  virtual SSLNetwork* getIncomingCLient() = 0;
-  virtual void disconectClient(SSLNetwork *client) = 0;
-  virtual bool checkSocket(SSLNetwork *client) = 0;
+  virtual SSLTCPClient* getIncomingCLient() = 0;
+  virtual void disconectClient(SSLTCPClient *client) = 0;
+  virtual bool checkSocket(SSLTCPClient *client) = 0;
   virtual const std::vector<int> getClientsSocketList() = 0;
 };
 
