@@ -36,7 +36,7 @@ public:
 	TCPClient& operator<<(const std::string &);
 	TCPClient& operator>>(std::string &);
 	int getSocketDescriptor();
-
+	void TCPClient::preInit();
 protected:
 	#ifdef __unix__
 	#elif defined(_WIN32) || defined(_WIN64) 

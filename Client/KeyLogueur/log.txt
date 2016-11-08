@@ -142,3 +142,49 @@ Client 0 pressed
 Client 0 released
 Client LEFT SHIFT released
 Client ENTER pressed
+Mouse move at: 424 376
+Mouse move at: 424 375
+Mouse move at: 425 372
+Mouse move at: 429 365
+Mouse move at: 444 348
+Mouse move at: 487 308
+Mouse move at: 546 257
+Mouse move at: 613 213
+Mouse move at: 680 177
+Mouse move at: 735 153
+Mouse move at: 790 134
+Mouse move at: 837 122
+Mouse move at: 871 114
+Mouse move at: 896 111
+Mouse move at: 911 110
+Mouse move at: 926 110
+Mouse move at: 938 110
+Mouse move at: 945 111
+Mouse move at: 950 112
+Mouse move at: 955 114
+Mouse move at: 959 116
+Mouse move at: 961 118
+Mouse move at: 965 120
+Mouse move at: 971 122
+Mouse move at: 980 126
+Mouse move at: 990 129
+Mouse move at: 1002 131
+Mouse move at: 1016 133
+Mouse move at: 1031 134
+Mouse move at: 1047 134
+Mouse move at: 1062 134
+Mouse move at: 1077 134
+Mouse move at: 1090 134
+Mouse move at: 1102 134
+Mouse move at: 1112 133
+Mouse move at: 1123 130
+Mouse move at: 1130 128
+Mouse move at: 1139 126
+Mouse move at: 1144 124
+Mouse move at: 1147 123
+Mouse move at: 1150 122
+Mouse move at: 1151 122
+Mouse move at: 1152 122
+Mouse move at: 1153 122
+Mouse Left button down at: 1153 122
+Mouse Left button up at: 1153 122

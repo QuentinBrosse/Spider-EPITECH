@@ -5,19 +5,23 @@ TCPClient::TCPClient(bool doNotSetup) :
 {
 	if (doNotSetup == false)
 	{
-		#ifdef __unix__
-			//Add any unix code here...
-		#elif defined(_WIN32) || defined(_WIN64)
-			if (WSAStartup(MAKEWORD(2, 0), &m_WSAData) != 0)
-			{
-				std::cout << "Failed. Error Code : " << WSAGetLastError() << std::endl;
-			}
-			else
-				std::cout << "Client initiated" << std::endl;
-		#endif
+		this->preInit();
 	}
 }
 
+void TCPClient::preInit()
+{
+#ifdef __unix__
+	//Add any unix code here...
+#elif defined(_WIN32) || defined(_WIN64)
+	if (WSAStartup(MAKEWORD(2, 0), &m_WSAData) != 0)
+	{
+		std::cout << "Failed. Error Code : " << WSAGetLastError() << std::endl;
+	}
+	else
+		std::cout << "Client initilised" << std::endl;
+#endif
+}
 
 TCPClient::~TCPClient()
 {
