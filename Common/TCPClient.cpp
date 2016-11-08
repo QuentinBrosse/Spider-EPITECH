@@ -124,20 +124,6 @@ void TCPClient::disconnectFromHost()
 	#endif
 }
 
-TCPClient& TCPClient::operator<<(const std::string &in)
-{
-	this->sendData(reinterpret_cast<const void *>(in.c_str()), in.size());
-	return (*this);
-}
-
-TCPClient& TCPClient::operator>>(std::string &out)
-{
-	char buffer[1024];
-	int readed = this->receiveData(buffer, 1024);
-	out.assign(reinterpret_cast<char *>(buffer), readed);
-	return (*this);
-}
-
 int TCPClient::getSocketDescriptor()
 {
 	return m_socketFd;

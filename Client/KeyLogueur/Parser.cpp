@@ -1,10 +1,10 @@
 #include <fstream>
 
-#include "SSLNetwork.hpp"
+#include "SSLTCPClient.hpp"
 #include "Parser.hpp"
 
 
-Parser::Parser(SSLNetwork &client) :
+Parser::Parser(SSLTCPClient &client) :
 	m_client(client)
 {
 }

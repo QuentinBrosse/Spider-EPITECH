@@ -20,23 +20,24 @@
 #define OS_Windows
 #endif
 
-class TCPClient
+#include "ITCPClient.hpp"
+
+class TCPClient : public ITCPClient
 {
 public:
 	TCPClient(bool = false);
-	~TCPClient();
-	void unblockSocket();
-	void blockSocket();
-	void connectToHost(const std::string&, const std::string &);
-	void setSocket(int);
+	virtual ~TCPClient();
+	virtual void unblockSocket();
+	virtual void blockSocket();
+	virtual void connectToHost(const std::string&, const std::string &);
+	virtual void setSocket(int);
 	virtual void sendData(const void *, unsigned int);
 	virtual int receiveData(void *, unsigned int);
-	bool isConnected() const;
-	void disconnectFromHost();
-	TCPClient& operator<<(const std::string &);
-	TCPClient& operator>>(std::string &);
-	int getSocketDescriptor();
-	void preInit();
+	virtual bool isConnected() const;
+	virtual void disconnectFromHost();
+	virtual int getSocketDescriptor();
+	virtual void preInit();
+
 protected:
 	#ifdef __unix__
 	#elif defined(_WIN32) || defined(_WIN64) 

