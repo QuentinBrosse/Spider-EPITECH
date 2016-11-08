@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 	}
       for (auto clientIt = clientsList.begin(); clientIt != clientsList.end(); clientIt++)
 	{
-	  if (server.checkSocket(*clientIt))
+	  if (server.checkSocket(*clientIt) && (*clientIt)->isConnected())
 	    {
 	      int read = 0;
 	      if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_cmd)))) == 0)

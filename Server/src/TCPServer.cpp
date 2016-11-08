@@ -129,6 +129,7 @@ SSLTCPClient* TCPServer::getIncomingCLient()
 
 	SSLTCPClient* client = new SSLTCPClient(true);
 	client->setSocket(m_newSocket);
+	client->unblockSocket();
 	return client;
 }
 
