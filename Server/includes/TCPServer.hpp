@@ -32,6 +32,7 @@ public:
 	int getMasterSocket();
 	void waitForClientsActivity();
 	int incomingConnection();
+        void fdSetChk(int &m_SeedDescription, fd_set& m_readFds);
 	SSLNetwork* getIncomingCLient();
 	void disconectClient(SSLNetwork *client);
 	bool checkSocket(SSLNetwork *client);

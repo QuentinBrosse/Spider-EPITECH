@@ -1,16 +1,16 @@
 #include "TCPServer.hpp"
 
 TCPServer::TCPServer() :
-	m_isListening(false)
+  m_isListening(false)
 {
-	#ifdef __unix__
-		//Add any unix code here...
-	#elif defined(_WIN32) || defined(_WIN64)
-	if (WSAStartup(MAKEWORD(2, 0), &m_WSAData) != 0)
-	{
-		std::cout << "WSA initialisation failed : " << WSAGetLastError() << std::endl;
-	}
-	#endif
+#ifdef __unix__
+  //Add any unix code here...
+#elif defined(_WIN32) || defined(_WIN64)
+  if (WSAStartup(MAKEWORD(2, 0), &m_WSAData) != 0)
+    {
+      std::cout << "WSA initialisation failed : " << WSAGetLastError() << std::endl;
+    }
+#endif
 }
 
 TCPServer::~TCPServer()
@@ -76,17 +76,21 @@ int TCPServer::getMasterSocket()
 	return m_masterSocket;
 }
 
+void TCPServer::fdSetChk(int &m_SeedDescription, fd_set& m_readFds)
+{
+  if (m_SeedDescription > 0)
+    FD_SET(m_SeedDescription, &m_readFds);
+}
+
 void TCPServer::waitForClientsActivity()
 {
 	FD_ZERO(&m_readFds);
 	FD_SET(m_masterSocket, &m_readFds);
 	m_maxSocket = m_masterSocket;
-
 	for (int m_i = 0; m_i < m_maxClients; m_i++)
 	{
 		m_SeedDescription = m_clientSockets[m_i];
-		if (m_SeedDescription > 0)
-			FD_SET(m_SeedDescription, &m_readFds);
+		fdSetChk(m_SeedDescription, m_readFds);
 		if (m_SeedDescription > m_maxSocket)
 			m_maxSocket = m_SeedDescription;
 	}
