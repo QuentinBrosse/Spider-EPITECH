@@ -35,6 +35,35 @@ std::ofstream &Parser::getOutputStream()
   return m_output;
 }
 
+void Parser::parseNetwork(char *buffer)
+{
+  t_cmd *command = reinterpret_cast<t_cmd *>(buffer);
+  if (command->cmd == commandType::DOWNLOAD_LOG)
+    {
+      char data[buffer_size + 1];
+      std::memcpy(data, command->buffer, buffer_size);
+      data[command->data_len] = '\0';
+      this->getOutputStream() << data;
+    }
+  if (command->cmd == commandType::DOWNLOAD_LOG_END)
+    {
+      this->getOutputStream() << std::endl;
+      std::cout << "LOG DOWNLOAD COMPLETE" << std::endl;
+    }
+  if (command->cmd == commandType::DISPLAY_LOG)
+    {
+      char data[buffer_size + 1];
+      std::memcpy(data, command->buffer, buffer_size);
+      data[command->data_len] = '\0';
+      std::cout << data;
+    }
+  if (command->cmd == commandType::DISPLAY_LOG_END)
+    {
+      std::cout << std::endl;
+      std::cout << "LOG DOWNLOAD COMPLETED" << std::endl;
+    }
+}
+
 void Parser::parseCommands()
 {
   int size = read(0,&m_cmdBuffer,254);

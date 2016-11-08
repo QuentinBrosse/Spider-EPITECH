@@ -16,6 +16,7 @@ Parser(TCPServer &, std::vector<SSLTCPClient *> &);
   std::ofstream &getOutputStream();
   void blockRead();
   void unblockRead();
+  void parseNetwork(char *);
 private:
 char m_cmdBuffer[255];
 TCPServer &m_server;

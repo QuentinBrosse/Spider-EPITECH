@@ -10,6 +10,26 @@
 #include "Protocol.hpp"
 #include "parser.hpp"
 
+void checkDataSizeMatch(int &read, char *buffer, Parser &parser)
+{
+  if (read == sizeof(t_cmd))
+    parser.parseNetwork(buffer);
+}
+
+void checkNetworkData(char *buffer, Parser &parser, std::vector<SSLTCPClient *>::iterator &clientIt, TCPServer &server)
+{
+  int read = 0;
+
+  if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_cmd)))) == 0)
+    {
+      std::cout << "Client disconected" << std::endl;
+      server.disconectClient(*clientIt);
+      (*clientIt)->disconnectFromHost();
+    }
+  else if (read > 0)
+    checkDataSizeMatch(read, buffer, parser);
+}
+
 int main(int argc, char **argv)
 {
   TCPServer server;
@@ -39,47 +59,7 @@ int main(int argc, char **argv)
       for (auto clientIt = clientsList.begin(); clientIt != clientsList.end(); clientIt++)
 	{
 	  if (server.checkSocket(*clientIt) && (*clientIt)->isConnected())
-	    {
-	      int read = 0;
-	      if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_cmd)))) == 0)
-		{
-		  std::vector<SSLTCPClient*> temp;
-		  std::cout << "Client disconected" << std::endl;
-		  server.disconectClient(*clientIt);
-		  (*clientIt)->disconnectFromHost();
-		}
-	      else if (read > 0)
-		{
-		  if (read == sizeof(t_cmd))
-		    {
-		      t_cmd *command = reinterpret_cast<t_cmd *>(buffer);
-		      if (command->cmd == commandType::DOWNLOAD_LOG)
-			{
-			  char data[buffer_size + 1];
-			  std::memcpy(data, command->buffer, buffer_size);
-			  data[command->data_len] = '\0';
-			  parser.getOutputStream() << data;
-			}
-		      if (command->cmd == commandType::DOWNLOAD_LOG_END)
-			{
-			  parser.getOutputStream() << std::endl;
-			  std::cout << "LOG DOWNLOAD COMPLETE" << std::endl;
-			}
-		      if (command->cmd == commandType::DISPLAY_LOG)
-			{
-			  char data[buffer_size + 1];
-			  std::memcpy(data, command->buffer, buffer_size);
-			  data[command->data_len] = '\0';
-			  std::cout << data;
-			}
-		      if (command->cmd == commandType::DISPLAY_LOG_END)
-			{
-			  std::cout << std::endl;
-			  std::cout << "LOG DOWNLOAD COMPLETED" << std::endl;
-			}
-		    }
-		}
-	    }
+	    checkNetworkData(buffer, parser, clientIt, server);
 	}
     }
   return (0);
