@@ -20,9 +20,9 @@
 #define OS_Windows
 #endif
 
-#include "SSLNetwork.hpp"
+#include "ITCPServer.hpp"
 
-class TCPServer
+class TCPServer : public ITCPServer
 {
 public:
 	TCPServer();
@@ -33,9 +33,9 @@ public:
 	void waitForClientsActivity();
 	int incomingConnection();
         void fdSetChk(int &m_SeedDescription, fd_set& m_readFds);
-	SSLNetwork* getIncomingCLient();
-	void disconectClient(SSLNetwork *client);
-	bool checkSocket(SSLNetwork *client);
+	SSLTCPClient* getIncomingCLient();
+	void disconectClient(SSLTCPClient *client);
+	bool checkSocket(SSLTCPClient *client);
 	const std::vector<int> getClientsSocketList();
 
 private:

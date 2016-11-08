@@ -6,20 +6,20 @@
 #include <map>
 
 #include "TCPServer.hpp"
-#include "SSLNetwork.hpp"
+#include "SSLTCPClient.hpp"
 #include "Protocol.hpp"
 #include "parser.hpp"
 
 int main(int argc, char **argv)
 {
   TCPServer server;
-  std::vector<SSLNetwork*> clientsList;
+  std::vector<SSLTCPClient*> clientsList;
   char buffer[sizeof(t_cmd)];
   char cmd_buffer[255];
   Parser parser(server, clientsList);
 
   parser.unblockRead();
-  server.listenClients("127.0.0.1", "4242", 3);
+  server.listenClients("0.0.0.0", "4242", 300);
   std::cout << "Available commands:" << std::endl;
   std::cout << "LIST : List connected clients ID." << std::endl;
   std::cout << "DOWNLOAD_LOG [ID] : Download log for client ID." << std::endl;
@@ -33,7 +33,7 @@ int main(int argc, char **argv)
       server.waitForClientsActivity();
       if (server.incomingConnection())
 	{
-	  SSLNetwork* client = server.getIncomingCLient();
+	  SSLTCPClient* client = server.getIncomingCLient();
 	  clientsList.push_back(client);
 	}
       for (auto clientIt = clientsList.begin(); clientIt != clientsList.end(); clientIt++)
@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 	      int read = 0;
 	      if ((read = ((*clientIt)->receiveData(buffer, sizeof(t_cmd)))) == 0)
 		{
-		  std::vector<SSLNetwork*> temp;
+		  std::vector<SSLTCPClient*> temp;
 		  std::cout << "Client disconected" << std::endl;
 		  server.disconectClient(*clientIt);
 		  (*clientIt)->disconnectFromHost();

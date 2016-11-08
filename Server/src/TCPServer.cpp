@@ -109,7 +109,7 @@ int TCPServer::incomingConnection()
 	return FD_ISSET(m_masterSocket, &m_readFds);
 }
 
-SSLNetwork* TCPServer::getIncomingCLient()
+SSLTCPClient* TCPServer::getIncomingCLient()
 {
 	if ((m_newSocket = accept(m_masterSocket, reinterpret_cast<struct sockaddr *>(&m_listenInfo), reinterpret_cast<socklen_t *>(&m_infoLen))) < 0)
 	{
@@ -127,12 +127,12 @@ SSLNetwork* TCPServer::getIncomingCLient()
 		}
 	}
 
-	SSLNetwork* client = new SSLNetwork(true);
+	SSLTCPClient* client = new SSLTCPClient(true);
 	client->setSocket(m_newSocket);
 	return client;
 }
 
-void TCPServer::disconectClient(SSLNetwork *client)
+void TCPServer::disconectClient(SSLTCPClient *client)
 {
 	for (int m_i = 0; m_i < m_maxClients; m_i++)
 	{
@@ -149,7 +149,7 @@ void TCPServer::disconectClient(SSLNetwork *client)
 	}
 }
 
-bool TCPServer::checkSocket(SSLNetwork *client)
+bool TCPServer::checkSocket(SSLTCPClient *client)
 {
 	return FD_ISSET(client->getSocketDescriptor(), &m_readFds);
 }
@@ -163,4 +163,3 @@ const std::vector<int> TCPServer::getClientsSocketList()
 	  }
   return (list);
 }
- 

@@ -2,7 +2,8 @@ CC		=	g++
 
 SRC		=	src/main.cpp \
 			../Common/TCPClient.cpp \
-			../Common/SSLNetwork.cpp \
+			../Common/SSLCipher.cpp \
+			../Common/SSLTCPClient.cpp \
 			src/TCPServer.cpp \
 			src/parser.cpp
 
