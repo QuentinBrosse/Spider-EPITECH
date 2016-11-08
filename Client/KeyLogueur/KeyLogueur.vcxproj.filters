@@ -27,10 +27,10 @@
     <ClCompile Include="..\..\Common\TCPClient.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="SSLTCPClient.cpp">
+    <ClCompile Include="..\..\Common\SSLCipher.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\SSLCipher.cpp">
+    <ClCompile Include="..\..\Common\SSLTCPClient.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,10 +53,10 @@
     <ClInclude Include="..\..\Common\ITCPClient.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="SSLTCPClient.hpp">
+    <ClInclude Include="..\..\Common\SSLCipher.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\SSLCipher.hpp">
+    <ClInclude Include="..\..\Common\SSLTCPClient.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

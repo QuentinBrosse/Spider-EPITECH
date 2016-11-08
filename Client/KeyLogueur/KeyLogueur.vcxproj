@@ -123,21 +123,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Common\SSLCipher.cpp" />
+    <ClCompile Include="..\..\Common\SSLTCPClient.cpp" />
     <ClCompile Include="..\..\Common\TCPClient.cpp" />
     <ClCompile Include="KeyLoger.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parser.cpp" />
-    <ClCompile Include="SSLTCPClient.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Common\ISSL.hpp" />
     <ClInclude Include="..\..\Common\ITCPClient.hpp" />
     <ClInclude Include="..\..\Common\Protocol.hpp" />
     <ClInclude Include="..\..\Common\SSLCipher.hpp" />
+    <ClInclude Include="..\..\Common\SSLTCPClient.hpp" />
     <ClInclude Include="..\..\Common\TCPClient.hpp" />
     <ClInclude Include="KeyLoger.hpp" />
     <ClInclude Include="Parser.hpp" />
-    <ClInclude Include="SSLTCPClient.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
