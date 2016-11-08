@@ -2,6 +2,7 @@
 #include <string>
 #include <cstring>
 #include <sstream>
+#include <exception>
 
 #include "parser.hpp"
 #include "TCPServer.hpp"
@@ -66,11 +67,17 @@ void Parser::parseCommands()
 	  std::istringstream stream(cmd);
 	  std::string cmd;
 	  std::string client_id;
-	  stream >> cmd >> client_id;
+	  int sock;
 
-	  std::cout << "Parsed: " << cmd << " " << client_id << std::endl;
+	  stream >> cmd >> client_id;
 	  auto list = m_server.getClientsSocketList();
-	  int sock = list[std::stoi(client_id)];
+	  try {
+	    sock = list[std::stoi(client_id)];
+	  }
+	  catch (std::exception &e) {
+	    std::cout << "Invalid syntaxe for command CLOSE [ID]" << std::endl;
+	    return ;
+	  }
 	  for (auto clientIt = m_clientList.begin(); clientIt != m_clientList.end(); clientIt++)
 	    {
 	      if (sock == (*clientIt)->getSocketDescriptor() && (*clientIt)->isConnected())
@@ -78,20 +85,28 @@ void Parser::parseCommands()
 		  t_cmd command;
 		  command.cmd = commandType::CLOSE;
 		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
-		  break;
+		  std::cout << "Command sent" << std::endl;
+		  return ;
 		}
 	    }
+	  std::cout << "Client with id " << client_id << " not found" << std::endl;
 	}
       if (std::strncmp(cmd.c_str(), "PURGE_LOG", 9) == 0)
 	{
 	  std::istringstream stream(cmd);
 	  std::string cmd;
 	  std::string client_id;
-	  stream >> cmd >> client_id;
+	  int sock;
 
-	  std::cout << "Parsed: " << cmd << " " << client_id << std::endl;
+	  stream >> cmd >> client_id;
 	  auto list = m_server.getClientsSocketList();
-	  int sock = list[std::stoi(client_id)];
+	  try {
+	    sock = list[std::stoi(client_id)];
+	  }
+	  catch(std::exception &e) {
+	    std::cout << "Invalid syntaxze for PURGE_LOG [ID]" << std::endl;
+	    return ;
+	  }
 	  for (auto clientIt = m_clientList.begin(); clientIt != m_clientList.end(); clientIt++)
 	    {
 	      if (sock == (*clientIt)->getSocketDescriptor() && (*clientIt)->isConnected())
@@ -99,9 +114,10 @@ void Parser::parseCommands()
 		  t_cmd command;
 		  command.cmd = commandType::PURGE_LOG;
 		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
-		  break;
+		  return ;
 		}
 	    }
+	  std::cout << "Client with id " << client_id << " not found" << std::endl;
 	}
 
       if (std::strncmp(cmd.c_str(), "DOWNLOAD_LOG", 12) == 0)
@@ -110,11 +126,17 @@ void Parser::parseCommands()
 	  std::string cmd;
 	  std::string name;
 	  std::string client_id;
-	  stream >> cmd >> client_id;
+	  int sock;
 
-	  std::cout << "Parsed: " << cmd << " " << client_id << std::endl;
+	  stream >> cmd >> client_id;
 	  auto list = m_server.getClientsSocketList();
-	  int sock = list[std::stoi(client_id)];
+	  try {
+	    sock = list[std::stoi(client_id)];
+	  }
+	  catch (std::exception &e) {
+	    std::cout << "Invalid syntaxe for DOWNLOAD_LOG [ID]" << std::endl;
+	    return;
+	  }
 	  this->blockRead();
 	  std::cout << "Entrez le nom sous lequel le log sera enregistrer:" << std::endl;
 	  std::cin >> name;
@@ -134,9 +156,10 @@ void Parser::parseCommands()
 		  t_cmd command;
 		  command.cmd = commandType::DOWNLOAD_LOG;
 		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
-		  break;
+		  return ;
 		}
 	    }
+	  std::cout << "Client with id " << client_id << " not found" << std::endl;
 	}
 
       if (std::strncmp(cmd.c_str(), "DISPLAY_LOG", 11) == 0)
@@ -144,11 +167,17 @@ void Parser::parseCommands()
 	  std::istringstream stream(cmd);
 	  std::string cmd;
 	  std::string client_id;
-	  stream >> cmd >> client_id;
+	  int sock;
 
-	  std::cout << "Parsed: " << cmd << " " << client_id << std::endl;
+	  stream >> cmd >> client_id;
 	  auto list = m_server.getClientsSocketList();
-	  int sock = list[std::stoi(client_id)];
+	  try {
+	    sock = list[std::stoi(client_id)];
+	  }
+	  catch (std::exception &e) {
+	    std::cout << "Invalid syntaxe DISPLAY_LOG [ID]" << std::endl;
+	    return ;
+	  }
 	  for (auto clientIt = m_clientList.begin(); clientIt != m_clientList.end(); clientIt++)
 	    {
 	      if (sock == (*clientIt)->getSocketDescriptor() && (*clientIt)->isConnected())
@@ -156,9 +185,10 @@ void Parser::parseCommands()
 		  t_cmd command;
 		  command.cmd = commandType::DISPLAY_LOG;
 		  (*clientIt)->sendData(reinterpret_cast<char *>(&command), sizeof(t_cmd));
-		  break;
+		  return ;
 		}
 	    }
+	  std::cout << "Client with id " << client_id << " not found" << std::endl;
 	}
 
     }
