@@ -1,4 +1,9 @@
-CC		=	g++
+CXX		=	g++
+
+CXXFLAGS	=	-I ./includes -I ../Common
+CXXFLAGS	+=	-std=c++11
+
+LDFLAGS		=	-lssl -lcrypto
 
 SRC		=	src/main.cpp \
 			../Common/TCPClient.cpp \
@@ -11,14 +16,14 @@ OBJ		=	$(SRC:.cpp=.o)
 
 NAME		=	server
 
-CXXFLAGS	=	-I ./includes -I ../Common -lssl -lcrypto -std=c++11
+
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CC) $(OBJ) $(CXXFLAGS) -o $(NAME)
+	$(CXX) $(CXXFLAGS) -o $(NAME) $(OBJ) $(LDFLAGS)
 
-re: fclean $(NAME)
+re: fclean all
 
 fclean: clean
 	$(RM) $(NAME)
@@ -26,4 +31,5 @@ fclean: clean
 clean:
 	$(RM) $(OBJ)
 
-.PHONY: clean fclean re
+
+.PHONY: all clean fclean re
