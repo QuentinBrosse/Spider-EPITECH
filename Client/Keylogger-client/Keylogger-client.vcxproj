@@ -20,8 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{220C11CE-683F-4DED-A842-B9411F0B14F9}</ProjectGuid>
-    <RootNamespace>KeyLogueur</RootNamespace>
+    <RootNamespace>Keylogger</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Keylogger-client</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -69,12 +70,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\bobis_b\Downloads\Spider-EPITECH\Common\openssl;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\bobis_b\Downloads\Spider-EPITECH\lib\windows\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>../../Common/openssl;$(IncludePath)</IncludePath>
+    <LibraryPath>../../lib/windows/lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\bobis_b\Downloads\Spider-EPITECH\Common;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\bobis_b\Downloads\Spider-EPITECH\lib\windows\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>../../Common;$(IncludePath)</IncludePath>
+    <LibraryPath>../../lib/windows/lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -92,6 +93,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>libeay32.lib;ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../lib/windows/lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -125,7 +127,7 @@
     <ClCompile Include="..\..\Common\SSLCipher.cpp" />
     <ClCompile Include="..\..\Common\SSLTCPClient.cpp" />
     <ClCompile Include="..\..\Common\TCPClient.cpp" />
-    <ClCompile Include="KeyLoger.cpp" />
+    <ClCompile Include="Keylogger.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parser.cpp" />
   </ItemGroup>
@@ -136,7 +138,7 @@
     <ClInclude Include="..\..\Common\SSLCipher.hpp" />
     <ClInclude Include="..\..\Common\SSLTCPClient.hpp" />
     <ClInclude Include="..\..\Common\TCPClient.hpp" />
-    <ClInclude Include="KeyLoger.hpp" />
+    <ClInclude Include="Keylogger.hpp" />
     <ClInclude Include="Parser.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

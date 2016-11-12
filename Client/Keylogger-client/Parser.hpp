@@ -2,7 +2,7 @@
 #define PARSER_HPP_
 
 #include "Protocol.hpp"
-#include "KeyLoger.hpp"
+#include "Keylogger.hpp"
 
 class SSLTCPClient;
 
